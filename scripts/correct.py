@@ -34,6 +34,10 @@ def corrected_geometry(collection, year, end_year, bbox, rules):
         target = next(((feature, part) for feature, part in parts
                        if feature["properties"]["source_color"] == rule["source_color"]
                        and part.covers(Point(rule["anchor"]))), None)
+        if target and rule.get("mask_path"):
+            mask = union_all([shape(f["geometry"]) for f in read(rule["mask_path"])["features"]])
+            clipped = target[1].intersection(mask)
+            target = (target[0], clipped) if not clipped.is_empty else None
         if target and not any(part.equals(target[1]) for _, part, _ in selected):
             selected.append((*target, rule["id"]))
     if len(selected) == 1:

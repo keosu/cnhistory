@@ -32,7 +32,7 @@
 
 ## 时间规则
 
-网页和当前年份导出采用 `data/focus/territory-timeline.curated.json`，引用修正后的 `curated/`、`curated-boundaries/` 文件及未改动年份的拼合层。`data/corrections.json` 记录清辖蒙古从 1691 年起、西藏从 1720 年起、北疆从现有 1756 年变化节点起与清朝主体合并；蒙古规则止于 1911 年，其他规则止于 1912 年。1756 是本项目采用的北疆地图节点，准噶尔征服过程跨 1755—1757 年，南疆平定完成于 1759 年。地理标注点只选中连通组件，其他同色政权和后期不同颜色表示的割据区域保持独立；没有将整个中亚或浩罕汗国并入清朝。
+网页和当前年份导出采用 `data/focus/territory-timeline.curated.json`，引用修正后的 `curated/`、`curated-boundaries/` 文件及未改动年份的拼合层。`data/corrections.json` 记录清辖蒙古从 1691 年起、西藏从 1720 年起、北疆从现有 1756 年变化节点起与清朝主体合并；蒙古规则止于 1911 年，其他规则止于 1912 年。1756 是本项目采用的北疆地图节点，准噶尔征服过程跨 1755—1757 年。南疆从 1759 年平定起至 1864 年起事节点前另行修正：以 1884 年清朝新疆轮廓与南疆窗口交集为近似修正范围，仅截取原图浩罕色块中对应喀什一带的清辖部分，见 `data/corrections/qing-southern-xinjiang.geojson`。地理标注点只选中连通组件，其他同色政权和后期不同颜色表示的割据区域保持独立；没有将整个中亚或浩罕汗国并入清朝。
 
 修正 Feature 的 `polity_id` 为 `toolbay-region-0728`，`polity_assignment` 为 `project_editorial_correction`，`geometry_origin` 为 `curated_component_union`，附有 `correction_ids` 和 `source_features`。中文名称将“満洲国／满洲国”改为“伪满洲国”、“大日本帝国”改为“日本国”；JSON、CSV、标注点和事件标题一致更新，`source_names`、`source_abbreviations`、`source_title` 保留改名前值。清辖西藏阶段另含 `sovereign_entity_id`，不作为独立政权标签显示。`scripts/correct.py` 可重复运行；原始 PNG 与未经修正的拼合层仍可独立取用。
 

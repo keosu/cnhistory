@@ -18,7 +18,7 @@ class HistoricalCorrections(unittest.TestCase):
     def test_qing_anchors_preserve_coverage_and_unrelated_colors(self):
         timeline = read("data/focus/territory-timeline.json")
         rules = read("data/corrections.json")
-        for year in (1720, 1755, 1756, 1800, 1884, 1911, 1912):
+        for year in (1720, 1755, 1756, 1759, 1800, 1870, 1884, 1911, 1912):
             with self.subTest(year=year):
                 entry = next(e for e in timeline if e["start_year"] <= year < e["end_year"])
                 original = read(entry["path"])
@@ -44,6 +44,11 @@ class HistoricalCorrections(unittest.TestCase):
                     self.assertTrue(geometry.covers(Point(87.6, 43.8)))
                 else:
                     self.assertFalse(geometry.covers(Point(87.6, 43.8)))
+                if year in (1759,1800,1884):
+                    self.assertTrue(geometry.covers(Point(76,39.5)))
+                if year in (1756,1870):
+                    self.assertFalse(geometry.covers(Point(76,39.5)))
+                self.assertFalse(geometry.covers(Point(71,40.5)))
                 unrelated = union_all([shape(f["geometry"]) for f in original["features"]
                                       if f["properties"]["source_color"] == "#ffff00"]).difference(geometry)
                 revised_unrelated = union_all([shape(f["geometry"]) for f in corrected["features"]

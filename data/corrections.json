@@ -6,7 +6,8 @@
   "qing_regions": [
     {"id": "qing-mongolia", "start_year": 1691, "end_year": 1911, "anchor": [105, 47], "source_color": "#ffff00", "reason": "将清辖蒙古与清朝内地统一着色，消除行政区域之间被误绘为政权边界的线。"},
     {"id": "qing-tibet", "start_year": 1720, "end_year": 1912, "anchor": [91, 29.6], "source_color": "#ffff00", "reason": "1720 年清军入藏后，西藏作为清辖区域，与清朝疆域统一。"},
-    {"id": "qing-dzungaria", "start_year": 1756, "end_year": 1912, "anchor": [87.6, 43.8], "source_color": "#ffff00", "reason": "从项目现有的 1756 年北疆变化节点起，将原准噶尔地区并入清朝统一疆域。准噶尔征服过程跨 1755—1757 年，南疆平定完成于 1759 年。"}
+    {"id": "qing-dzungaria", "start_year": 1756, "end_year": 1912, "anchor": [87.6, 43.8], "source_color": "#ffff00", "reason": "从项目现有的 1756 年北疆变化节点起，将原准噶尔地区并入清朝统一疆域。准噶尔征服过程跨 1755—1757 年，南疆平定完成于 1759 年。"},
+    {"id": "qing-southern-xinjiang", "start_year": 1759, "end_year": 1864, "anchor": [76, 39.5], "source_color": "#009900", "mask_path": "data/corrections/qing-southern-xinjiang.geojson", "reason": "1759 年平定南疆后，将喀什等被原图误归浩罕色块的清辖区域纳入清朝；仅使用后期清朝新疆轮廓界定的南疆范围，不合并费尔干纳的浩罕主体。1864 年起保留图中起事与后期割据的变化。"}
   ],
   "subordinate_periods": [{"period_id": "toolbay-region-0621-period-007", "sovereign_entity_id": "toolbay-region-0728", "name_zh": "西藏（清辖）"}],
   "geometry_method": "Select only connected polygon components covering named geographic anchors and unite them with the component covering the Qing label. Unrelated components sharing the same color remain separate. Source tracing layers remain independently available.",
