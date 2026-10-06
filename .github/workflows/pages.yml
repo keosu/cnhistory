@@ -38,6 +38,7 @@ jobs:
           node --test tests/*.test.mjs
       - name: Package data and stage website
         run: |
+          python scripts/correct.py
           python scripts/package.py
           python scripts/build_site.py
       - name: Check staged website in Chromium

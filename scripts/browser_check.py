@@ -106,6 +106,18 @@ def main():
         for year in [-2000,-221,-1,1,220,618,1279,1644,1912,2017]:
             set_year(page,year)
         checks.append("BCE/CE endpoints and representative historical years")
+        set_year(page,1800)
+        assert page.locator('.polity-label[title="(西藏)"]').count()==0
+        with page.expect_download() as downloaded:
+            page.locator('[data-tab="data"]').click()
+            page.locator('#download-snapshot').click()
+        exported=json.loads(Path(downloaded.value.path()).read_text(encoding='utf-8'))
+        assert any(f['properties'].get('polity_id')=='toolbay-region-0728' for f in exported['features'])
+        page.locator('[data-tab="polities"]').click()
+        set_year(page,1934)
+        assert page.locator('.polity-label[title="伪满洲国"]').count()==1
+        assert page.locator('.polity-label[title="日本国"]').count()==1
+        checks.append("Qing unified territory export, subordinate Tibet labels, and corrected Japanese/Manchukuo names")
         for button in page.locator("#dynasty-nav button").all():
             year=int(button.get_attribute("data-year"))
             button.click()

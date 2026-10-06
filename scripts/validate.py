@@ -106,10 +106,24 @@ def main():
             geometry=shape(feature["geometry"])
             assert geometry.is_valid and geometry.geom_type in ("LineString","MultiLineString")
     assert stitched_features==stitched_manifest["features"]
+    curated=read("data/focus/territory-timeline.curated.json")
+    for previous,current in zip(curated,curated[1:]):
+        assert previous["end_year"]==current["start_year"]
+    from shapely import union_all
+    for interval in curated:
+        assert digest(ROOT/interval["path"])==interval["sha256"]
+        assert digest(ROOT/interval["boundary_path"])==interval["boundary_sha256"]
+        if "correction_manifest" not in interval:
+            continue
+        features=read(interval["path"])["features"]
+        assert all(shape(feature["geometry"]).is_valid for feature in features)
+        original=union_all([shape(f["geometry"]) for f in read(interval["source_path"])["features"]])
+        revised=union_all([shape(f["geometry"]) for f in features])
+        assert original.symmetric_difference(revised).area<1e-6
     report={"status":"passed","source_files_checked":len(manifests),
             "geojson_files_checked":len(derived["files"]),"geometries_checked":total_features,
             "stitched_intervals_checked":len(timeline),"stitched_features_checked":stitched_features,
-            "schema_records_checked":schema_count,
+            "schema_records_checked":schema_count,"curated_intervals_checked":len(curated),
             "checks":["JSON Schema","unique IDs","referential integrity","language reference resolution",
                       "source and output SHA-256","complete tile timelines","valid nonempty polygons",
                       "focus bounding box","explicitly unverified polity assignment",

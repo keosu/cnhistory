@@ -32,6 +32,10 @@
 
 ## 时间规则
 
+网页和当前年份导出采用 `data/focus/territory-timeline.curated.json`，引用修正后的 `curated/`、`curated-boundaries/` 文件及未改动年份的拼合层。`data/corrections.json` 记录清辖蒙古从 1691 年起、西藏从 1720 年起、北疆从现有 1756 年变化节点起与清朝主体合并；蒙古规则止于 1911 年，其他规则止于 1912 年。1756 是本项目采用的北疆地图节点，准噶尔征服过程跨 1755—1757 年，南疆平定完成于 1759 年。地理标注点只选中连通组件，其他同色政权和后期不同颜色表示的割据区域保持独立；没有将整个中亚或浩罕汗国并入清朝。
+
+修正 Feature 的 `polity_id` 为 `toolbay-region-0728`，`polity_assignment` 为 `project_editorial_correction`，`geometry_origin` 为 `curated_component_union`，附有 `correction_ids` 和 `source_features`。中文名称将“満洲国／满洲国”改为“伪满洲国”、“大日本帝国”改为“日本国”；JSON、CSV、标注点和事件标题一致更新，`source_names`、`source_abbreviations`、`source_title` 保留改名前值。清辖西藏阶段另含 `sovereign_entity_id`，不作为独立政权标签显示。`scripts/correct.py` 可重复运行；原始 PNG 与未经修正的拼合层仍可独立取用。
+
 网页和拼合时间索引从 **公元前 2000 年**开始；原始文件、规范化文字数据和原图块索引保留原站更早记录。`data/navigation.json` 的 `primary_periods` 给出网页使用的 14 个主要阶段：夏、商、周、秦、汉、魏晋、南北朝、隋、唐、宋、元、明、清、近现代；这是粗粒度导航分组，不是连续政权认定。`periods` 另保留 31 个详细朝代／阶段，使用通行分期，夏商早期年代标为近似。夏的起始年代早于展示范围，因此导航跳到前 2000 年。宋辽夏金等时期可以重叠；导航年份不改写原站政权时间和疆域，例如原站商的阶段从前 1500 年起，而导航采用约前 1600 年。
 
 - 使用历史纪年整数：`-221` 表示公元前 221 年，`1` 表示公元 1 年，不采用天文学年编号，没有公元 0 年。原始数据中的值原样保存。

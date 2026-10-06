@@ -109,7 +109,7 @@ function sourceColor(hex) {
 function activePolities() {
   return data.entities.filter(e=>activeAt(e,state.year)).flatMap(entity=>{
     const period=entity.periods.find(p=>activeAt(p,state.year));
-    return period ? [{entity,period,rulers:(data.rulersByEntity.get(entity.id)||[]).filter(r=>activeAt(r,state.year))}] : [];
+    return period && !period.sovereign_entity_id ? [{entity,period,rulers:(data.rulersByEntity.get(entity.id)||[]).filter(r=>activeAt(r,state.year))}] : [];
   }).sort((a,b)=>(a.period.display_level??0)-(b.period.display_level??0)||nameOf(a.period).localeCompare(nameOf(b.period),'zh'));
 }
 
@@ -405,7 +405,7 @@ async function init() {
   try {
     hydrateIcons();restoreRecords();
     applyTheme(preference('atlas-theme','light'));
-    const [metadata,entities,rulers,eras,allEvents,tiles,land,rivers,timeline,navigation]=await Promise.all(['data/metadata.json','data/focus/entities.json','data/focus/rulers.json','data/focus/eras.json','data/focus/events.json','data/focus/territory-index.json','data/basemap/land.geojson','data/basemap/rivers.geojson','data/focus/territory-timeline.json','data/navigation.json'].map(getJSON));
+    const [metadata,entities,rulers,eras,allEvents,tiles,land,rivers,timeline,navigation]=await Promise.all(['data/metadata.json','data/focus/entities.json','data/focus/rulers.json','data/focus/eras.json','data/focus/events.json','data/focus/territory-index.json','data/basemap/land.geojson','data/basemap/rivers.geojson','data/focus/territory-timeline.curated.json','data/navigation.json'].map(getJSON));
     const seenTerritoryYears=new Set();
     const events=allEvents.filter(e=>{
       if(e.year<navigation.min_year||e.year>navigation.max_year||e.year===0)return false;

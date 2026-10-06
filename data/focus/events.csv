@@ -7586,7 +7586,7 @@ ruler_end:toolbay-region-0772-ruler-0026,ruler_end,1723,Pierre Christoph Le Noir
 ruler_start:toolbay-region-0662-ruler-0049,ruler_start,1723,Arnold Mold · 任期开始,toolbay-region-0662,toolbay-region-0662-ruler-0049,True
 ruler_start:toolbay-region-0700-ruler-0021,ruler_start,1723,Raja Laksamana Dajang · 任期开始,toolbay-region-0700,toolbay-region-0700-ruler-0021,True
 ruler_start:toolbay-region-0772-ruler-0027,ruler_start,1723,Joseph Beauvollier de Courchant · 任期开始,toolbay-region-0772,toolbay-region-0772-ruler-0027,True
-polity_change:toolbay-region-0621-period-007,polity_change,1724,(西藏) · 阶段变化,toolbay-region-0621,toolbay-region-0621-period-007,True
+polity_change:toolbay-region-0621-period-007,polity_change,1724,西藏（清辖） · 阶段变化,toolbay-region-0621,toolbay-region-0621-period-007,True
 polity_change:toolbay-region-0706-period-006,polity_change,1724,莫卧儿帝国 · 阶段变化,toolbay-region-0706,toolbay-region-0706-period-006,True
 polity_start:toolbay-region-0775-period-003,polity_start,1724,海得拉巴国 · 记录开始,toolbay-region-0775,toolbay-region-0775-period-003,True
 polity_start:toolbay-region-0793-period-003,polity_start,1724,Awadh · 记录开始,toolbay-region-0793,toolbay-region-0793-period-003,True
@@ -8773,7 +8773,7 @@ ruler_start:toolbay-region-0122-ruler-0274,ruler_start,1867,德川庆喜 · 任�
 ruler_start:toolbay-region-0658-ruler-0088,ruler_start,1867,Sir Harry St. George Ord · 任期开始,toolbay-region-0658,toolbay-region-0658-ruler-0088,True
 ruler_start:toolbay-region-0981-ruler-0007,ruler_start,1867,穆罕默德・雅霍甫（阿古柏） · 任期开始,toolbay-region-0981,toolbay-region-0981-ruler-0007,True
 era_start:toolbay-era_jp-0-236,era_start,1868,明治 · 年号开始,,toolbay-era_jp-0-236,True
-polity_change:toolbay-region-0122-period-017,polity_change,1868,大日本帝国 · 阶段变化,toolbay-region-0122,toolbay-region-0122-period-017,True
+polity_change:toolbay-region-0122-period-017,polity_change,1868,日本国 · 阶段变化,toolbay-region-0122,toolbay-region-0122-period-017,True
 polity_start:toolbay-region-0188-period-003,polity_start,1868,虾夷共和国 · 记录开始,toolbay-region-0188,toolbay-region-0188-period-003,True
 ruler_end:toolbay-region-0122-ruler-0153,ruler_end,1868,孝明天皇 · 任期结束,toolbay-region-0122,toolbay-region-0122-ruler-0153,True
 ruler_end:toolbay-region-0122-ruler-0274,ruler_end,1868,德川庆喜 · 任期结束,toolbay-region-0122,toolbay-region-0122-ruler-0274,True
@@ -9918,7 +9918,7 @@ territory_change:tile-60-1931,territory_change,1931,疆域图块 60 更新,,tile
 territory_change:tile-61-1931,territory_change,1931,疆域图块 61 更新,,tile-61-1931,True
 territory_change:tile-70-1931,territory_change,1931,疆域图块 70 更新,,tile-70-1931,True
 era_start:toolbay-era_cn-0-218,era_start,1932,[满洲]大同 · 年号开始,,toolbay-era_cn-0-218,True
-polity_change:toolbay-region-1007-period-006,polity_change,1932,満洲国 · 阶段变化,toolbay-region-1007,toolbay-region-1007-period-006,True
+polity_change:toolbay-region-1007-period-006,polity_change,1932,伪满洲国 · 阶段变化,toolbay-region-1007,toolbay-region-1007-period-006,True
 ruler_end:toolbay-region-0122-ruler-0315,ruler_end,1932,犬养毅 · 任期结束,toolbay-region-0122,toolbay-region-0122-ruler-0315,True
 ruler_end:toolbay-region-0713-ruler-0117,ruler_end,1932,Dwight F. Davis · 任期结束,toolbay-region-0713,toolbay-region-0713-ruler-0117,True
 ruler_end:toolbay-region-0802-ruler-0048,ruler_end,1932,比姆・萨马舍尔・江格・巴哈杜尔・拉纳 · 任期结束,toolbay-region-0802,toolbay-region-0802-ruler-0048,True
@@ -9978,7 +9978,7 @@ ruler_start:toolbay-region-1013-ruler-0009,ruler_start,1933,盛世才 · 任期�
 ruler_start:toolbay-region-1013-ruler-0011,ruler_start,1933,刘文竜 · 任期开始,toolbay-region-1013,toolbay-region-1013-ruler-0011,True
 territory_change:tile-51-1933,territory_change,1933,疆域图块 51 更新,,tile-51-1933,True
 era_start:toolbay-era_cn-0-219,era_start,1934,[满洲]康德 · 年号开始,,toolbay-era_cn-0-219,True
-polity_change:toolbay-region-1007-period-007,polity_change,1934,満洲国 · 阶段变化,toolbay-region-1007,toolbay-region-1007-period-007,True
+polity_change:toolbay-region-1007-period-007,polity_change,1934,伪满洲国 · 阶段变化,toolbay-region-1007,toolbay-region-1007-period-007,True
 polity_end:toolbay-region-0982,polity_end,1934,东突厥斯坦伊斯兰共和国 · 记录结束,toolbay-region-0982,toolbay-region-0982,True
 polity_end:toolbay-region-1014,polity_end,1934,中华苏维埃共和国 · 记录结束,toolbay-region-1014,toolbay-region-1014,True
 ruler_end:toolbay-region-0122-ruler-0316,ruler_end,1934,斋藤实 · 任期结束,toolbay-region-0122,toolbay-region-0122-ruler-0316,True
@@ -10236,7 +10236,7 @@ polity_end:toolbay-region-0908,polity_end,1945,台湾(日治时期) · 记录结
 polity_end:toolbay-region-0961,polity_end,1945,关东州(日本) · 记录结束,toolbay-region-0961,toolbay-region-0961,True
 polity_end:toolbay-region-0967,polity_end,1945,南京国民政府 · 记录结束,toolbay-region-0967,toolbay-region-0967,True
 polity_end:toolbay-region-0968,polity_end,1945,蒙古自治邦政府 · 记录结束,toolbay-region-0968,toolbay-region-0968,True
-polity_end:toolbay-region-1007,polity_end,1945,満洲国 · 记录结束,toolbay-region-1007,toolbay-region-1007,True
+polity_end:toolbay-region-1007,polity_end,1945,伪满洲国 · 记录结束,toolbay-region-1007,toolbay-region-1007,True
 polity_start:toolbay-region-1002-period-003,polity_start,1945,琉球列岛美国军政府 · 记录开始,toolbay-region-1002,toolbay-region-1002-period-003,True
 polity_start:toolbay-region-1003-period-003,polity_start,1945,北朝鲜（苏联军政期） · 记录开始,toolbay-region-1003,toolbay-region-1003-period-003,True
 polity_start:toolbay-region-1016-period-003,polity_start,1945,中国共产党 · 记录开始,toolbay-region-1016,toolbay-region-1016-period-003,True

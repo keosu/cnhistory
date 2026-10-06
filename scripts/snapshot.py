@@ -6,6 +6,7 @@ from pathlib import Path
 
 from extract import ROOT, MIN_YEAR, MAX_YEAR, write_json
 from stitch import merge_features
+from correct import corrected_geometry
 
 
 def read(path):
@@ -28,12 +29,14 @@ def create_snapshot(year):
             features.extend(read(current["vector_path"])["features"])
     territories, _ = merge_features(features, year, 1 if year == -1 else year + 1,
                                     read("data/metadata.json")["focus_bbox"])
+    territories, _, _ = corrected_geometry(territories, year, 1 if year == -1 else year + 1,
+                                           read("data/metadata.json")["focus_bbox"], read("data/corrections.json"))
     labels = []
     for entity in read("data/focus/entities.json"):
         if not entity["start_year"] <= year < entity["end_year"]:
             continue
         for period in entity["periods"]:
-            if period["start_year"] <= year < period["end_year"] and period["label_position"]:
+            if period["start_year"] <= year < period["end_year"] and period["label_position"] and not period.get("sovereign_entity_id"):
                 labels.append({"type": "Feature", "id": period["id"],
                                "geometry": {"type": "Point", "coordinates": period["label_position"]},
                                "properties": {**period, "position_kind": "source_label_anchor_not_capital"}})

@@ -92,7 +92,7 @@ toolbay-region-0122-period-013,toolbay-region-0122,日本,Japan,1477,1493,134.0,
 toolbay-region-0122-period-014,toolbay-region-0122,日本,Japan,1493,1603,139.0,33.5
 toolbay-region-0122-period-015,toolbay-region-0122,日本,Japan,1603,1858,140.0,36.0
 toolbay-region-0122-period-016,toolbay-region-0122,日本,Japan,1858,1868,140.0,36.0
-toolbay-region-0122-period-017,toolbay-region-0122,大日本帝国,Empire of Japan,1868,1946,140.0,36.0
+toolbay-region-0122-period-017,toolbay-region-0122,日本国,Empire of Japan,1868,1946,140.0,36.0
 toolbay-region-0122-period-018,toolbay-region-0122,日本国,Japan,1946,9999,140.0,36.0
 toolbay-region-0123-period-003,toolbay-region-0123,熊袭,Kumaso,300,401,130.5,31.6
 toolbay-region-0124-period-003,toolbay-region-0124,(隼人之乱),(Hayato Rebellion),720,721,130.5,31.6
@@ -612,7 +612,7 @@ toolbay-region-0621-period-003,toolbay-region-0621,西藏,Tibet(Phagmodrupa),135
 toolbay-region-0621-period-004,toolbay-region-0621,西藏,Tibet(Rinpungpa),1434,1465,85.0,33.0
 toolbay-region-0621-period-005,toolbay-region-0621,西藏,Tibet(Tsangpa),1465,1642,85.0,33.0
 toolbay-region-0621-period-006,toolbay-region-0621,西藏（和硕特汗政权）,Tibet(Güshi Khanate),1642,1724,85.0,33.0
-toolbay-region-0621-period-007,toolbay-region-0621,(西藏),(Tibet),1724,1912,85.0,33.0
+toolbay-region-0621-period-007,toolbay-region-0621,西藏（清辖）,(Tibet),1724,1912,85.0,33.0
 toolbay-region-0622-period-003,toolbay-region-0622,西藏,Tibet,1912,1920,85.0,33.0
 toolbay-region-0622-period-004,toolbay-region-0622,西藏,Tibet,1920,1925,85.0,33.0
 toolbay-region-0622-period-005,toolbay-region-0622,西藏,Tibet,1925,1950,85.0,33.0
@@ -940,8 +940,8 @@ toolbay-region-1006-period-011,toolbay-region-1006, , ,1949,9999,120.0,23.0
 toolbay-region-1007-period-003,toolbay-region-1007,奉天军阀,Fengtian clique,1922,1928,124.0,47.0
 toolbay-region-1007-period-004,toolbay-region-1007,(奉天军阀),(Fengtian clique),1928,1931,124.0,47.0
 toolbay-region-1007-period-005,toolbay-region-1007,(关东军),(Kwantung Army),1931,1932,124.0,47.0
-toolbay-region-1007-period-006,toolbay-region-1007,満洲国,Manchukuo,1932,1934,124.0,47.0
-toolbay-region-1007-period-007,toolbay-region-1007,満洲国,Manchukuo,1934,1945,124.0,47.0
+toolbay-region-1007-period-006,toolbay-region-1007,伪满洲国,Manchukuo,1932,1934,124.0,47.0
+toolbay-region-1007-period-007,toolbay-region-1007,伪满洲国,Manchukuo,1934,1945,124.0,47.0
 toolbay-region-1008-period-003,toolbay-region-1008,直隷军阀,Zhili clique,1922,1926,114.0,32.0
 toolbay-region-1008-period-004,toolbay-region-1008,直隷军阀,Zhili clique,1926,1927,119.0,32.0
 toolbay-region-1009-period-003,toolbay-region-1009,(冯玉祥),(Feng Yu-xiang),1922,1926,103.0,40.0

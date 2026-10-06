@@ -47,7 +47,7 @@ python scripts/serve.py --port 8000
 - **[完整数据包](dist/cn-history-data.zip)**：包含原始与整理后数据、格式文档及 Schema，解压后保留 `data/` 相对路径即可使用。
 - [元数据](data/metadata.json)：统计、空间范围和纪年规则。
 - [政权阶段 CSV](data/focus/polity-periods.csv)、[人物任期 CSV](data/focus/rulers.csv)、[变化事件 CSV](data/focus/events.csv)：可用 Excel 打开。
-- [政权 JSON](data/focus/entities.json)、[时间变化 JSON](data/focus/events.json)、[疆域版本索引](data/focus/territory-index.json)：用于其他程序。
+- [政权 JSON](data/focus/entities.json)、[时间变化 JSON](data/focus/events.json)、[修正后疆域时间索引](data/focus/territory-timeline.curated.json)：用于其他程序；[修正规则](data/corrections.json) 记录清朝辖区与名称修正。
 - [618 年疆域 GeoJSON](data/derived/snapshots/618.geojson)、[618 年政权标注点](data/derived/snapshots/618.labels.geojson)：直接导入 GIS 或其他地图框架。
 
 ## GitHub Pages 发布
@@ -65,6 +65,8 @@ python scripts/build_site.py
 
 所有资源使用相对路径，可部署在 `/cnhistory/` 等子目录。CI 会检查暂存网站的子目录访问。
 
+清朝辖区和中文名称修正记录在 `data/corrections.json`，修正地图索引为 `data/focus/territory-timeline.curated.json`。重新提取或拼合数据后运行 `python scripts/correct.py`，再生成快照和数据包。
+
 ## 重跑提取与转换
 
 ```powershell
@@ -72,6 +74,7 @@ python -m pip install -r requirements.txt
 python scripts/extract.py --download-tiles --workers 4
 python scripts/vectorize.py
 python scripts/stitch.py
+python scripts/correct.py
 python scripts/snapshot.py --year 618
 python scripts/validate.py
 python scripts/package.py
