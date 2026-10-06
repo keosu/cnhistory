@@ -1,0 +1,742 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: url(img/back.png);
+}
+img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+#head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+}
+.lang-button {
+  position: absolute;
+  top: 13px;
+  width: 80px;
+  height: auto; /* 桌面端自动高度 */
+  padding: 2px 0;
+  border: 1px solid gray;
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: normal; /* 桌面端正常行高 */
+  box-sizing: border-box;
+}
+#lang-ja {
+  left: 190px;
+}
+#lang-en {
+  left: 280px;
+}
+#lang-zh {
+  left: 370px;
+}
+#scale-zoom {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 148px;
+  height: 32px;
+  background: url(img/scale-zoom.png);
+}
+#scale-zoom-cursor {
+  position: absolute;
+  top: 8px;
+  left: 37px;
+}
+#layer-land,
+#layer-tert,
+#layer-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#layer-tert {
+  opacity: 0.5;
+}
+#layer-land img,
+#layer-tert img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#year {
+  text-align: right;
+  margin: 4px 32px;
+  color: white;
+}
+#year-text {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#year-input {
+  display: none;
+  width: 4em;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background: black;
+  color: white;
+  text-align: right;
+}
+#year-sub {
+  text-align: right;
+  margin: 4px 32px;
+  font-size: 14px;
+  color: white;
+}
+#year-bar-scale {
+  margin: 0;
+  padding: 0;
+}
+#year-bar-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* 增大可点击区域 */
+  padding: 8px;
+  margin: -8px;
+  /* 拖拽时的光标样式 */
+  cursor: grab;
+  /* 添加过渡效果 */
+  transition: transform 0.1s ease;
+}
+
+#year-bar-cursor:hover {
+  transform: scale(1.1);
+}
+
+#year-bar-cursor:active {
+  cursor: grabbing;
+  transform: scale(1.15);
+}
+#year-bar {
+  position: absolute;
+  left: 0px;
+  /* 改善拖拽体验 */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+#year-arrow-left,
+#year-arrow-right {
+  cursor: pointer;
+}
+
+.region {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: 100px;
+}
+.region-title {
+  padding-bottom: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: default;
+}
+.person-list {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+  font-size: 12px;
+}
+.person {
+  height: 64px;
+}
+.person div {
+  padding: 6px 4px 0 52px;
+  cursor: default;
+}
+.person img {
+  float: left;
+}
+
+/* ==================== 移动端适配样式 ==================== */
+
+/* 桌面端确保正常布局 */
+@media screen and (min-width: 769px) {
+  #layer-land,
+  #layer-tert,
+  #layer-info {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* 移动端基础适配 */
+@media screen and (max-width: 768px) {
+  /* 头部区域适配 */
+  #head {
+    height: 60px; /* 增加高度，方便触摸操作 */
+    flex-wrap: wrap;
+  }
+
+  /* 语言按钮适配 */
+  .lang-button {
+    width: 60px;
+    height: 24px !important; /* 减小高度 */
+    font-size: 11px;
+    top: 18px; /* 重新计算垂直居中位置 */
+    /* 调整padding和line-height实现文字垂直居中 */
+    padding: 0px 2px !important;
+    line-height: 24px !important; /* 与height相同，实现垂直居中 */
+    box-sizing: border-box !important;
+  }
+
+  /* 重新排列语言按钮，从左边开始 */
+  #lang-zh {
+    left: 10px; /* 中文按钮在最左边 */
+  }
+  #lang-en {
+    left: 80px; /* 英文按钮在中间 */
+  }
+  #lang-ja {
+    left: 150px; /* 日文按钮在右边 */
+  }
+
+  /* 移动端隐藏缩放控制条 */
+  #scale-zoom,
+  #scale-zoom-cursor {
+    display: none !important;
+  }
+
+  /* 年份显示适配 */
+  #year {
+    margin: 8px 16px 4px 16px;
+    font-size: 14px;
+  }
+
+  #year-text,
+  #year-input {
+    font-size: 14px;
+    /* 增大触摸区域 */
+    padding: 4px;
+    min-height: 24px;
+  }
+
+  #year-sub {
+    margin: 2px 16px;
+    font-size: 12px;
+  }
+
+  /* 移动端时间轴固定在底部 - 隐藏容器 */
+  #year-bar {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 0px !important; /* 容器高度设为0 */
+    background: transparent !important; /* 移除背景 */
+    border: none !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: flex-end !important; /* 从底部对齐 */
+    justify-content: center !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    z-index: 1000 !important;
+  }
+
+  /* 地图区域占满除头部外的所有空间 */
+  #layer-land,
+  #layer-tert,
+  #layer-info {
+    position: fixed !important;
+    top: 60px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0px !important; /* 底部到屏幕边缘 */
+    width: 100% !important;
+    height: auto !important; /* 让高度自动适应 */
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 移动端隐藏左右箭头按钮 */
+  #year-arrow-left,
+  #year-arrow-right {
+    display: none !important;
+  }
+
+  #year-bar-cursor {
+    /* 移动端增大拖拽区域 */
+    padding: 15px;
+    margin: -15px;
+    /* 触摸反馈 */
+    transition: transform 0.2s ease;
+    /* 提高z-index确保可点击 */
+    z-index: 100;
+    position: relative;
+    /* 调整位置让指示器显示在canvas中间 */
+    top: -25px !important; /* 向上移动到canvas中间位置 */
+  }
+
+  #year-bar-scale {
+    /* Canvas布满整个屏幕宽度，悬浮在底部 */
+    height: 50px !important;
+    width: 100vw !important; /* 布满整个屏幕宽度 */
+    max-width: none !important; /* 移除最大宽度限制 */
+    border-radius: 0px !important; /* 移除圆角，贴合屏幕边缘 */
+    cursor: pointer;
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2) !important; /* 向上投射阴影 */
+    background: rgba(240, 240, 240, 0.95) !important; /* 调整背景色 */
+    backdrop-filter: blur(8px) !important;
+    position: relative !important;
+    margin-bottom: -50px !important; /* 负边距，让canvas悬浮 */
+  }
+
+  #year-bar-cursor:active {
+    transform: scale(1.1);
+  }
+
+  /* 区域信息窗口适配 */
+  .region {
+    width: 280px;
+    max-width: 90vw;
+    font-size: 13px;
+  }
+
+  .person {
+    height: 70px; /* 增加高度 */
+  }
+
+  .person div {
+    padding: 8px 4px 0 60px;
+    line-height: 1.4;
+  }
+
+  .person img {
+    width: 48px;
+    height: 48px;
+  }
+
+  /* 点赞按钮移动端适配 */
+  .like-button {
+    right: 10px;
+    top: 18px;
+    width: 60px; /* 与移动端语言按钮保持一致 */
+    height: 24px !important; /* 与移动端语言按钮保持一致 */
+    font-size: 11px;
+    padding: 0px 2px !important; /* 与移动端语言按钮保持一致 */
+    line-height: 24px !important; /* 与height相同，实现垂直居中 */
+    gap: 3px;
+  }
+
+  .like-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  #like-count {
+    font-size: 10px;
+    min-width: 14px;
+  }
+}
+
+/* 更小屏幕的适配 */
+@media screen and (max-width: 480px) {
+  /* 头部进一步压缩 */
+  #head {
+    height: 50px;
+  }
+
+  .lang-button {
+    width: 45px;
+    height: 22px !important; /* 减小高度 */
+    font-size: 10px;
+    top: 14px; /* 重新计算垂直居中位置 */
+    /* 调整padding和line-height实现文字垂直居中 */
+    padding: 0px 2px !important;
+    line-height: 22px !important; /* 与height相同，实现垂直居中 */
+    box-sizing: border-box !important;
+  }
+
+  /* 小屏幕语言按钮重新排列 */
+  #lang-zh {
+    left: 8px; /* 中文按钮在最左边 */
+  }
+  #lang-en {
+    left: 60px; /* 英文按钮在中间 */
+  }
+  #lang-ja {
+    left: 112px; /* 日文按钮在右边 */
+  }
+
+  /* 小屏幕也隐藏缩放控制条 */
+  #scale-zoom,
+  #scale-zoom-cursor {
+    display: none !important;
+  }
+
+  #year {
+    margin: 6px 10px 2px 10px;
+    font-size: 12px;
+  }
+
+  #year-text,
+  #year-input {
+    font-size: 12px;
+  }
+
+  /* 小屏幕时间轴容器高度为0 */
+  #year-bar {
+    height: 0px !important;
+  }
+
+  /* 调整地图区域高度 - 占满除头部外所有空间 */
+  #layer-land,
+  #layer-tert,
+  #layer-info {
+    top: 50px !important;
+    bottom: 0px !important;
+  }
+
+  #year-bar-cursor {
+    padding: 14px;
+    margin: -14px;
+    z-index: 100;
+    position: relative;
+    /* 调整位置让指示器显示在canvas中间 */
+    top: 30px !important; /* 向上移动到canvas中间位置 */
+  }
+
+  #year-bar-scale {
+    height: 45px !important;
+    width: 100vw !important; /* 布满整个屏幕宽度 */
+    max-width: none !important;
+    border-radius: 0px !important;
+    cursor: pointer;
+    margin-bottom: -45px !important;
+  }
+
+  .region {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  /* 点赞按钮小屏幕适配 */
+  .like-button {
+    right: 8px;
+    top: 14px;
+    width: 45px; /* 与小屏幕语言按钮保持一致 */
+    height: 22px !important; /* 与小屏幕语言按钮保持一致 */
+    font-size: 10px;
+    padding: 0px 2px !important; /* 与小屏幕语言按钮保持一致 */
+    line-height: 22px !important; /* 与height相同，实现垂直居中 */
+    gap: 2px;
+  }
+
+  .like-icon {
+    width: 11px;
+    height: 11px;
+  }
+
+  #like-count {
+    font-size: 9px;
+    min-width: 12px;
+  }
+}
+
+/* 横屏模式适配 */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  #head {
+    height: 45px;
+  }
+
+  .lang-button {
+    height: 20px !important; /* 减小高度 */
+    top: 12px; /* 重新计算垂直居中位置 */
+    /* 调整padding和line-height实现文字垂直居中 */
+    padding: 0px 2px !important;
+    line-height: 20px !important; /* 与height相同，实现垂直居中 */
+    box-sizing: border-box !important;
+  }
+
+  /* 横屏模式隐藏缩放控制条 */
+  #scale-zoom,
+  #scale-zoom-cursor {
+    display: none !important;
+  }
+
+  /* 横屏模式语言按钮重新排列 */
+  #lang-zh {
+    left: 8px; /* 中文按钮在最左边 */
+  }
+  #lang-en {
+    left: 68px; /* 英文按钮在中间 */
+  }
+  #lang-ja {
+    left: 128px; /* 日文按钮在右边 */
+  }
+
+  #year {
+    margin: 4px 16px 2px 16px;
+  }
+
+  /* 横屏模式时间轴容器高度为0 */
+  #year-bar {
+    height: 0px !important;
+  }
+
+  /* 调整地图区域高度 - 占满除头部外所有空间 */
+  #layer-land,
+  #layer-tert,
+  #layer-info {
+    top: 45px !important;
+    bottom: 0px !important;
+  }
+
+  #year-bar-cursor {
+    padding: 12px;
+    margin: -12px;
+    z-index: 100;
+    position: relative;
+    /* 调整位置让指示器显示在canvas中间 */
+    top: 30px !important; /* 向上移动到canvas中间位置 */
+  }
+
+  #year-bar-scale {
+    height: 40px !important;
+    width: 100vw !important; /* 布满整个屏幕宽度 */
+    max-width: none !important;
+    border-radius: 0px !important;
+    cursor: pointer;
+    margin-bottom: -40px !important;
+  }
+
+  /* 点赞按钮横屏适配 */
+  .like-button {
+    right: 8px;
+    top: 12px;
+    width: 50px; /* 与横屏语言按钮保持一致 */
+    height: 20px !important; /* 与横屏语言按钮保持一致 */
+    font-size: 10px;
+    padding: 0px 2px !important; /* 与横屏语言按钮保持一致 */
+    line-height: 20px !important; /* 与height相同，实现垂直居中 */
+    gap: 2px;
+  }
+
+  .like-icon {
+    width: 11px;
+    height: 11px;
+  }
+
+  #like-count {
+    font-size: 9px;
+    min-width: 12px;
+  }
+}
+
+/* 超小屏幕适配 */
+@media screen and (max-width: 360px) {
+  #head {
+    height: 45px;
+  }
+
+  #year-bar {
+    height: 0px !important;
+  }
+
+  #layer-land,
+  #layer-tert,
+  #layer-info {
+    top: 45px !important;
+    bottom: 0px !important;
+  }
+
+  .lang-button {
+    width: 40px;
+    height: 20px !important; /* 减小高度 */
+    font-size: 9px;
+    top: 12px; /* 重新计算垂直居中位置 */
+    /* 调整padding和line-height实现文字垂直居中 */
+    padding: 0px 2px !important;
+    line-height: 20px !important; /* 与height相同，实现垂直居中 */
+    box-sizing: border-box !important;
+  }
+
+  /* 超小屏幕语言按钮重新排列 */
+  #lang-zh {
+    left: 5px; /* 中文按钮在最左边 */
+  }
+  #lang-en {
+    left: 50px; /* 英文按钮在中间 */
+  }
+  #lang-ja {
+    left: 95px; /* 日文按钮在右边 */
+  }
+
+  /* 超小屏幕也隐藏缩放控制条 */
+  #scale-zoom,
+  #scale-zoom-cursor {
+    display: none !important;
+  }
+
+  #year-bar-cursor {
+    /* 超小屏幕year-bar-cursor调整 */
+    top: 30px !important; /* 向上移动到canvas中间位置 */
+  }
+
+  /* 点赞按钮超小屏幕适配 */
+  .like-button {
+    right: 5px;
+    top: 12px;
+    width: 40px; /* 与超小屏幕语言按钮保持一致 */
+    height: 20px !important; /* 与超小屏幕语言按钮保持一致 */
+    font-size: 9px;
+    padding: 0px 2px !important; /* 与超小屏幕语言按钮保持一致 */
+    line-height: 20px !important; /* 与height相同，实现垂直居中 */
+    gap: 1px;
+  }
+
+  .like-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  #like-count {
+    font-size: 8px;
+    min-width: 10px;
+  }
+}
+
+/* 触摸优化 */
+@media (hover: none) and (pointer: coarse) {
+  /* 移除hover效果，因为移动设备没有真正的hover */
+  #year-bar-cursor:hover {
+    transform: none;
+  }
+
+  #year-arrow-left:hover,
+  #year-arrow-right:hover {
+    /* 移除hover图片切换效果 */
+  }
+
+  /* 增加触摸反馈 */
+  .lang-button:active {
+    background: #f0f0f0;
+    transform: scale(0.95);
+  }
+
+  #year-bar-cursor:active {
+    transform: scale(1.2);
+  }
+
+  #year-arrow-left:active,
+  #year-arrow-right:active {
+    opacity: 0.7;
+    transform: scale(0.9);
+  }
+
+  /* 点赞按钮触摸反馈 */
+  .like-button:hover {
+    transform: none; /* 移除hover效果 */
+  }
+
+  .like-button:active {
+    background: #e0e0e0;
+    transform: scale(0.9);
+  }
+
+  .like-button.liked:hover {
+    background: #ffebee; /* 移除hover效果 */
+  }
+
+  .like-button.liked:active {
+    background: #fce4ec;
+    transform: scale(0.9);
+  }
+}
+
+/* 点赞按钮样式 */
+.like-button {
+  position: absolute;
+  top: 13px;
+  right: 180px;
+  width: 80px; /* 与语言按钮保持一致 */
+  height: auto; /* 与语言按钮保持一致 */
+  padding: 2px 0; /* 与语言按钮保持一致 */
+  border: 1px solid gray;
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: normal;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.like-button:hover {
+  background: #f0f0f0;
+  border-color: #999;
+  transform: scale(1.02);
+}
+
+.like-button:active {
+  background: #e0e0e0;
+  transform: scale(0.98);
+}
+
+.like-button.liked {
+  background: #e3f2fd;
+  border-color: #2196f3;
+  color: #1976d2;
+}
+
+.like-button.liked:hover {
+  background: #bbdefb;
+  border-color: #1976d2;
+}
+
+.like-icon {
+  width: 14px;
+  height: 14px;
+  fill: #666;
+  transition: all 0.2s ease;
+}
+
+.like-button.liked .like-icon {
+  fill: #1976d2;
+  transform: scale(1.1);
+}
+
+#like-count {
+  font-size: 11px;
+  font-weight: bold;
+  min-width: 16px;
+}

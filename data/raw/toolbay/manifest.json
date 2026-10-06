@@ -1,0 +1,65 @@
+[
+  {
+    "path": "data/raw/toolbay/index.html",
+    "url": "https://www.toolbay.cc/history-map/index.html",
+    "bytes": 6534,
+    "sha256": "1581b797c77ffe6beda00926061966792bdd1110eaf4fa8e33f552670f9ec57b",
+    "retrieved_at": "2026-10-06T08:41:14.361037+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/js/era.js",
+    "url": "https://www.toolbay.cc/history-map/js/era.js?v=2",
+    "bytes": 16332,
+    "sha256": "f7defe07cca4648d8fb089be44690200d979ca6d0615428398939eda97daa384",
+    "retrieved_at": "2026-10-06T08:41:14.281612+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/js/territory.js",
+    "url": "https://www.toolbay.cc/history-map/js/territory.js?v=2",
+    "bytes": 10545,
+    "sha256": "0fbfaf2b1a382e17f20284f1e94ec3ac050a2ac6d6b152a7716be18c0dc7945c",
+    "retrieved_at": "2026-10-06T08:41:13.539437+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/js/regions.js",
+    "url": "https://www.toolbay.cc/history-map/js/regions.js?v=2",
+    "bytes": 2672636,
+    "sha256": "266004056fd97eb37fa0c20b8799f899dea954bd4785e0a30b3e5024d1129ac3",
+    "retrieved_at": "2026-10-06T08:41:19.823494+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/js/Region.js",
+    "url": "https://www.toolbay.cc/history-map/js/Region.js?v=2",
+    "bytes": 3522,
+    "sha256": "21c87059234f21959b2d0f7e3fa00b0d8c9b97971921d7be8542521c810bf7be",
+    "retrieved_at": "2026-10-06T08:41:23.386446+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/js/Map.js",
+    "url": "https://www.toolbay.cc/history-map/js/Map.js?v=2",
+    "bytes": 7765,
+    "sha256": "d82ccfec9e06ca84235aa5d33cee4ae272380156407e0ae5322652fad2608b4c",
+    "retrieved_at": "2026-10-06T08:41:18.779194+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/js/twha.js",
+    "url": "https://www.toolbay.cc/history-map/js/twha.js?v=2",
+    "bytes": 2168,
+    "sha256": "ed3d0193bfe24ddf298fb74d93c6fcdc83ff199786c89a8eab2011757c5262ae",
+    "retrieved_at": "2026-10-06T08:41:27.297198+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/js/YearBar.js",
+    "url": "https://www.toolbay.cc/history-map/js/YearBar.js?v=2",
+    "bytes": 4786,
+    "sha256": "c16a94e5e0bdc0e1162bd5be63d496a3f6903f792d8f49b4d0f25516309ca5d1",
+    "retrieved_at": "2026-10-06T08:41:22.838948+00:00"
+  },
+  {
+    "path": "data/raw/toolbay/style.css",
+    "url": "https://www.toolbay.cc/history-map/style.css",
+    "bytes": 15314,
+    "sha256": "96eb7d0f02d409e6f1e7c12f5c87b4e68b69d400314c4bea367ffa7a7a05e65d",
+    "retrieved_at": "2026-10-06T08:41:24.151369+00:00"
+  }
+]

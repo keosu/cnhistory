@@ -1,0 +1,10 @@
+{
+  "provider": "Natural Earth",
+  "scale": "1:110m",
+  "license": "public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "urls": {
+    "data/basemap/land.geojson": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson",
+    "data/basemap/rivers.geojson": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_rivers_lake_centerlines.geojson"
+  }
+}

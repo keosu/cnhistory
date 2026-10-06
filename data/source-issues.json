@@ -1,0 +1,574 @@
+[
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0009-ruler-0015",
+    "start_year": -1625,
+    "end_year": -1694
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0010-ruler-0031",
+    "start_year": -1380,
+    "end_year": -1396
+  },
+  {
+    "kind": "unexpected_row_length",
+    "record_id": "toolbay-region-0011-row-4",
+    "length": 7,
+    "raw": [
+      -1450,
+      -1190,
+      null,
+      "ヒッタイト新王国",
+      "New Hittite Kingdom",
+      "赫梯新王国",
+      null
+    ]
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0037-ruler-0017",
+    "start_year": -400,
+    "end_year": -424
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0084-ruler-0021",
+    "start_year": -138,
+    "end_year": -139
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0091-period-004",
+    "previous_end": -190,
+    "current_start": -281
+  },
+  {
+    "kind": "unexpected_row_length",
+    "record_id": "toolbay-region-0122-row-138",
+    "length": 7,
+    "raw": [
+      1629,
+      1643,
+      null,
+      "明正天皇",
+      "Meishou tenno",
+      "@",
+      null
+    ]
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0131-period-005",
+    "previous_end": 1087,
+    "current_start": 1089
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0232-ruler-0013",
+    "start_year": 93,
+    "end_year": 84
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0324-period-004",
+    "previous_end": 846,
+    "current_start": 839
+  },
+  {
+    "kind": "unexpected_row_length",
+    "record_id": "toolbay-region-0325-row-6",
+    "length": 5,
+    "raw": [
+      1685,
+      1689,
+      "uk/james2",
+      "ジェームズ2世",
+      "詹姆士二世"
+    ]
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0357-period-005",
+    "previous_end": 624,
+    "current_start": 625
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0369-ruler-0011",
+    "start_year": 653,
+    "end_year": 640
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0372-period-004",
+    "previous_end": 632,
+    "current_start": 630
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0417-period-005",
+    "previous_end": 1346,
+    "current_start": 1146
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0425-period-004",
+    "previous_end": 1260,
+    "current_start": 985
+  },
+  {
+    "kind": "unexpected_row_length",
+    "record_id": "toolbay-region-0435-row-161",
+    "length": 7,
+    "raw": [
+      1820,
+      1821,
+      "fr/duc-de-richelieu",
+      "ア儿マン・エマヌー・デュ・プレシ・デュ・ド・リシュリュー",
+      "Armand-Emmanuel du Plessis",
+      " Duc de Richelieu",
+      "阿尔芒-埃曼纽尔・迪普莱西・德・黎塞留"
+    ]
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0454-period-010",
+    "previous_end": 1270,
+    "current_start": 1170
+  },
+  {
+    "kind": "unexpected_row_length",
+    "record_id": "toolbay-region-0459-row-177",
+    "length": 7,
+    "raw": [
+      1958,
+      1963,
+      "pope/ioannes23",
+      "ヨハネス23世",
+      "Ioannes XXIII (Angelo Giuseppe Roncalli)",
+      "若望二十三世",
+      null
+    ]
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0466-period-004",
+    "previous_end": 934,
+    "current_start": 907
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0475-ruler-0015",
+    "start_year": 1504,
+    "end_year": 1504
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0539-ruler-0085",
+    "start_year": 1561,
+    "end_year": 1561
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0539-ruler-0109",
+    "start_year": 1607,
+    "end_year": 1607
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0539-ruler-0117",
+    "start_year": 1621,
+    "end_year": 1621
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0539-ruler-0184",
+    "start_year": 1752,
+    "end_year": 1752
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0539-ruler-0195",
+    "start_year": 1773,
+    "end_year": 1773
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0541-period-004",
+    "previous_end": 1375,
+    "current_start": 1226
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0546-ruler-0013",
+    "start_year": 1324,
+    "end_year": 1259
+  },
+  {
+    "kind": "unexpected_row_length",
+    "record_id": "toolbay-region-0549-row-9",
+    "length": 7,
+    "raw": [
+      1206,
+      1210,
+      null,
+      "クトゥブッディーン・アイバク",
+      "Qutb-ud-din Aybak",
+      "库特布丁・艾伊拜克",
+      null
+    ]
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0550-period-004",
+    "start_year": 1387,
+    "end_year": 1387
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0605-ruler-0008",
+    "start_year": 1557,
+    "end_year": 1557
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0627-period-004",
+    "previous_end": 1364,
+    "current_start": 1354
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0631-period-010",
+    "previous_end": 1780,
+    "current_start": 1781
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0648-ruler-0011",
+    "start_year": 1467,
+    "end_year": 1467
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0653-period-003",
+    "start_year": 1403,
+    "end_year": 1206
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0658-ruler-0048",
+    "start_year": 1686,
+    "end_year": 1686
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0658-ruler-0054",
+    "start_year": 1704,
+    "end_year": 1704
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0658-ruler-0071",
+    "start_year": 1795,
+    "end_year": 1795
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0678-ruler-0008",
+    "start_year": 1526,
+    "end_year": 1526
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0678-ruler-0012",
+    "start_year": 1554,
+    "end_year": 1554
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0679-period-004",
+    "previous_end": 1548,
+    "current_start": 1568
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0682-period-004",
+    "start_year": 1592,
+    "end_year": 1562
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0682-ruler-0060",
+    "start_year": 1844,
+    "end_year": 1844
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0691-period-007",
+    "previous_end": 1952,
+    "current_start": 1958
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0692-period-009",
+    "previous_end": 1923,
+    "current_start": 1921
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0698-ruler-0045",
+    "start_year": 1661,
+    "end_year": 1655
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0708-ruler-0173",
+    "start_year": 1962,
+    "end_year": 1962
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0711-period-005",
+    "start_year": 1581,
+    "end_year": 1572
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0713-ruler-0073",
+    "start_year": 1835,
+    "end_year": 1835
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0713-ruler-0074",
+    "start_year": 1835,
+    "end_year": 1835
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0713-period-008",
+    "previous_end": 1900,
+    "current_start": 1901
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0728-period-007",
+    "previous_end": 1872,
+    "current_start": 1862
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0737-ruler-0013",
+    "start_year": 1639,
+    "end_year": 1639
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0743-ruler-0057",
+    "start_year": 1802,
+    "end_year": 1768
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0743-ruler-0100",
+    "start_year": 1914,
+    "end_year": 1869
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0748-period-004",
+    "previous_end": 1707,
+    "current_start": 1717
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0772-period-004",
+    "previous_end": 1699,
+    "current_start": 1693
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0777-period-006",
+    "start_year": 1971,
+    "end_year": 1971
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0777-period-007",
+    "previous_end": 1971,
+    "current_start": 1972
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0789-period-004",
+    "previous_end": 1892,
+    "current_start": 1884
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0802-period-005",
+    "start_year": 1847,
+    "end_year": 1823
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0802-period-005",
+    "previous_end": 1823,
+    "current_start": 1847
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0803-period-008",
+    "previous_end": 1936,
+    "current_start": 1935
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0804-ruler-0008",
+    "start_year": 1770,
+    "end_year": 1770
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0805-period-008",
+    "start_year": 1833,
+    "end_year": 1801
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0811-ruler-0082",
+    "start_year": 1968,
+    "end_year": 1968
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0812-period-005",
+    "start_year": 1859,
+    "end_year": 1834
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0812-period-006",
+    "previous_end": 1834,
+    "current_start": 1864
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0820-period-003",
+    "start_year": 1803,
+    "end_year": 1801
+  },
+  {
+    "kind": "non_positive_reign",
+    "record_id": "toolbay-region-0825-ruler-0070",
+    "start_year": 1892,
+    "end_year": 1891
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0861-period-004",
+    "start_year": 1859,
+    "end_year": 1838
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0861-period-005",
+    "previous_end": 1838,
+    "current_start": 1865
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0862-period-005",
+    "start_year": 1969,
+    "end_year": 1900
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0862-period-005",
+    "previous_end": 1869,
+    "current_start": 1969
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0872-period-004",
+    "start_year": 1828,
+    "end_year": 1828
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0872-period-005",
+    "previous_end": 1828,
+    "current_start": 1830
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0877-period-005",
+    "previous_end": 1945,
+    "current_start": 1845
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0919-period-005",
+    "previous_end": 1968,
+    "current_start": 1931
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0942-period-010",
+    "start_year": 1944,
+    "end_year": 1944
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0942-period-011",
+    "previous_end": 1944,
+    "current_start": 1946
+  },
+  {
+    "kind": "non_positive_period",
+    "record_id": "toolbay-region-0971-period-010",
+    "start_year": 1963,
+    "end_year": 1672
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-0971-period-011",
+    "previous_end": 1672,
+    "current_start": 1972
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-1035-period-006",
+    "previous_end": 2007,
+    "current_start": 2002
+  },
+  {
+    "kind": "non_contiguous_periods",
+    "record_id": "toolbay-region-1038-period-004",
+    "previous_end": 1966,
+    "current_start": 1885
+  },
+  {
+    "kind": "non_positive_era",
+    "record_id": "toolbay-era_cn-0-021",
+    "start_year": -48,
+    "end_year": -48
+  },
+  {
+    "kind": "non_positive_era",
+    "record_id": "toolbay-era_cn-1-055",
+    "start_year": 543,
+    "end_year": 543
+  },
+  {
+    "kind": "non_positive_era",
+    "record_id": "toolbay-era_cn-1-099",
+    "start_year": 756,
+    "end_year": 756
+  },
+  {
+    "kind": "duplicate_tile_year",
+    "record_id": "21"
+  }
+]

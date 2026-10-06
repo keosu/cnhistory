@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "source": "https://www.toolbay.cc/history-map/index.html",
+  "source_max_year": 2017,
+  "min_year": -4000,
+  "focus_bbox": [
+    60,
+    0,
+    150,
+    65
+  ],
+  "bbox_order": "west,south,east,north",
+  "year_convention": "Historical signed years: -1=1 BCE, 1=1 CE; no year zero. Source values preserved.",
+  "interval_convention": "start_year <= year < end_year; 9999 is the source open-ended sentinel, not a future claim",
+  "entity_semantics": "A source region groups consecutive polity/name phases; it is not necessarily one continuous polity.",
+  "focus_selection": "Any source label anchor inside bbox; retain the entity's complete history. Not a territory intersection test.",
+  "georeferencing": {
+    "crs": "EPSG:4326",
+    "image_size": [
+      3600,
+      1800
+    ],
+    "tile_size": [
+      450,
+      450
+    ],
+    "pixel_size_degrees": 0.1,
+    "longitude": "x / 10 - 180",
+    "latitude": "90 - y / 10",
+    "status": "inferred_equirectangular",
+    "basis": "8x4 tile layout in Map.js and visual coastline alignment",
+    "accuracy": "Approximate raster map; source label anchors are not geocoded capitals."
+  },
+  "events": "Derived from record boundaries and image updates; source has no separate narrative event dataset.",
+  "territories": "Raster color masks; no source polygon geometry or verified color-to-polity table.",
+  "license": "No explicit reuse license identified in downloaded source files. Source rights remain with their owners.",
+  "counts": {
+    "global_entities": 1063,
+    "global_periods": 2881,
+    "global_rulers": 20396,
+    "global_events": 47073,
+    "eras": 709,
+    "focus_entities": 439,
+    "focus_periods": 967,
+    "focus_rulers": 4472,
+    "focus_events": 11978,
+    "focus_tiles": 6,
+    "focus_snapshots": 1006,
+    "source_issues": 88
+  }
+}

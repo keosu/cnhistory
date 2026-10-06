@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f6f8">
+    <meta name="description" content="中国与周边历史地图，浏览历代疆域、政权与人物。">
+  <title>山河时序 · 中国与周边历史地图</title>
+  <link rel="stylesheet" href="web/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="web/styles.css">
+  <script defer src="web/vendor/leaflet/leaflet.js"></script>
+  <script type="module" src="web/app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="./"><span class="seal" aria-hidden="true">舆</span><span>山河时序<small>中国与周边 · 历史地图</small></span></a>
+    <div class="top-player" aria-label="时间控制">
+      <div class="transport"><div class="transport-buttons" role="group" aria-label="时间播放">
+          <button id="previous" class="icon-button" data-icon="previous" aria-label="后退一年" title="后退一年"></button>
+          <button id="play" class="icon-button" data-icon="play" aria-label="播放时间线" title="播放时间线" aria-pressed="false"></button>
+          <button id="next" class="icon-button" data-icon="next" aria-label="前进一年" title="前进一年"></button>
+        </div><div class="playback-settings"><label for="playback-speed"><span data-icon="speed"></span><span class="sr-only">播放速度</span><select id="playback-speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option><option value="8">8×</option></select></label></div><form id="year-form"><label for="year-input" class="sr-only">年份</label><span class="year-icon" data-icon="calendar"></span><input id="year-input" type="number" min="-2000" max="2017" value="-2000"><button type="submit" class="icon-button" data-icon="arrow" aria-label="跳转到年份" title="跳转到年份"></button></form></div>
+    </div>
+    <div class="header-actions">
+      <div class="popover-wrap">
+        <button id="theme-toggle" class="icon-button" data-icon="sun" aria-label="切换主题" title="切换主题" aria-controls="theme-menu" aria-expanded="false"></button>
+        <div id="theme-menu" class="icon-menu" role="group" aria-label="界面主题" hidden>
+          <button class="icon-button" data-theme-option="light" data-icon="sun" aria-label="浅色" title="浅色" aria-pressed="true"></button>
+          <button class="icon-button" data-theme-option="dark" data-icon="moon" aria-label="深色" title="深色" aria-pressed="false"></button>
+          <button class="icon-button" data-theme-option="paper" data-icon="paper" aria-label="纸色" title="纸色" aria-pressed="false"></button>
+          <button class="icon-button theme-gem" data-theme-option="vivid" data-icon="gem" aria-label="琉璃" title="琉璃" aria-pressed="false"></button>
+          <button class="icon-button theme-flame" data-theme-option="vermilion" data-icon="flame" aria-label="朱砂" title="朱砂" aria-pressed="false"></button>
+          <button class="icon-button theme-spark" data-theme-option="neon" data-icon="spark" aria-label="霓虹" title="霓虹" aria-pressed="false"></button>
+        </div>
+      </div>
+      <button id="toggle-fullscreen" class="icon-button" data-icon="fullscreen" aria-label="进入全屏" title="进入全屏" aria-pressed="false"></button>
+      <button id="toggle-records" class="icon-button" data-icon="panel" aria-label="展开历史记录" title="展开历史记录" aria-controls="records" aria-expanded="false"></button>
+      <a class="icon-button" data-icon="download" href="dist/cn-history-data.zip" download aria-label="下载数据包" title="下载数据包"></a>
+    </div>
+  </header>
+  <main>
+    <section class="map-section" aria-label="历史疆域地图">
+      <div id="map"></div>
+      <div class="map-heading"><h1 id="map-year">公元前 2000 年</h1><p id="era-line"></p></div>
+      <div class="map-tools" role="group" aria-label="地图工具">
+        <div class="popover-wrap">
+          <button id="layer-toggle" class="icon-button" data-icon="layers" aria-label="切换图层" title="切换图层" aria-controls="layer-menu" aria-expanded="false"></button>
+          <div id="layer-menu" class="icon-menu" role="group" aria-label="地图图层" hidden>
+            <button class="icon-button" data-layer="vector" data-icon="layers" aria-label="疆域地图" title="疆域地图" aria-pressed="true"></button>
+            <button class="icon-button" data-layer="raster" data-icon="image" aria-label="原图" title="原图" aria-pressed="false"></button>
+            <button class="icon-button" data-layer="none" data-icon="map" aria-label="仅底图" title="仅底图" aria-pressed="false"></button>
+          </div>
+        </div>
+        <button id="show-labels" class="icon-button" data-icon="labels" aria-label="政权名称" title="政权名称" aria-pressed="true"></button>
+        <span class="tool-divider" aria-hidden="true"></span>
+        <button id="reset-view" class="icon-button" data-icon="locate" aria-label="回到全览" title="回到全览"></button>
+      </div>
+      <div class="zoom-tools" role="group" aria-label="缩放地图">
+        <button id="zoom-in" class="icon-button" data-icon="plus" aria-label="放大地图" title="放大"></button>
+        <button id="zoom-out" class="icon-button" data-icon="minus" aria-label="缩小地图" title="缩小"></button>
+      </div>
+      <div id="map-status" class="map-status" role="status">加载中…</div>
+    </section>
+    <aside class="sidebar" id="records" aria-label="历史记录">
+      <div class="sidebar-head"><div class="sidebar-title"><h2>历史记录</h2><span id="record-count" class="count">—</span><button id="close-records" class="icon-button" data-icon="panelClose" aria-label="收起历史记录" title="收起历史记录"></button></div>
+        <label class="search"><span data-icon="search"></span><input id="search" type="search" placeholder="查找政权、人物或年号" aria-label="查找政权、人物或年号"></label>
+      </div>
+      <div class="tabs" role="tablist" aria-label="记录类型"><button class="active" role="tab" aria-selected="true" data-tab="polities"><span data-icon="crown"></span>政权</button><button role="tab" aria-selected="false" data-tab="events"><span data-icon="history"></span>变化</button><button role="tab" aria-selected="false" data-tab="data"><span data-icon="database"></span>数据</button></div>
+      <div id="detail" class="detail" hidden></div>
+      <div id="polities-panel" class="panel" role="tabpanel"><div id="polity-list"></div></div>
+      <div id="events-panel" class="panel" role="tabpanel" hidden><div class="event-controls"><label for="event-filter">变化类型</label><select id="event-filter"><option value="polity">政权阶段</option><option value="ruler">人物任期</option><option value="era">年号</option><option value="territory">疆域变化</option><option value="all">全部</option></select></div><div id="event-list"></div></div>
+      <div id="data-panel" class="panel data-panel" role="tabpanel" hidden>
+        <h3>数据下载</h3>
+        <div id="dataset-counts" class="dataset-counts"></div>
+        <a href="dist/cn-history-data.zip" download>完整数据包 <span>ZIP <i data-icon="download"></i></span></a>
+        <a href="data/focus/entities.json" download>政权及阶段 <span>JSON <i data-icon="download"></i></span></a>
+        <a href="data/focus/polity-periods.csv" download>政权阶段表 <span>CSV <i data-icon="download"></i></span></a>
+        <a href="data/focus/rulers.csv" download>人物与任期 <span>CSV <i data-icon="download"></i></span></a>
+        <a href="data/focus/events.json" download>时间变化记录 <span>JSON <i data-icon="download"></i></span></a>
+        <a href="data/focus/eras.json" download>中国与日本年号 <span>JSON <i data-icon="download"></i></span></a>
+        <a href="data/focus/territory-timeline.json" download>疆域时间索引 <span>JSON <i data-icon="download"></i></span></a>
+        <button id="download-snapshot">当前年份疆域 <span>GeoJSON <i data-icon="download"></i></span></button>
+        <button id="download-labels">当前年份政权名称位置 <span>GeoJSON <i data-icon="download"></i></span></button>
+      </div>
+      <div class="sidebar-footer"><span id="coverage">公元前 2000—公元 2017</span></div>
+    </aside>
+  </main>
+  <footer class="timeline">
+    <div class="year-track"><label class="sr-only" for="year-slider">选择历史年份</label><input id="year-slider" type="range" min="-2000" max="2017" value="-2000" step="1"><nav id="dynasty-nav" class="dynasty-nav" aria-label="主要朝代分界年份"></nav></div>
+  </footer>
+  <noscript>需要启用 JavaScript 才能浏览地图。独立数据位于 data 目录。</noscript>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.1.0",
+  "min_year": -2000,
+  "max_year": 2017,
+  "bbox": [
+    60,
+    0,
+    150,
+    65
+  ],
+  "method": "Dissolve matching colors across tile edges without buffering or simplification",
+  "outlines": "Union of dissolved polygon boundaries, excluding the focus crop rectangle",
+  "intervals": 651,
+  "features": 7323,
+  "timeline": "data/focus/territory-timeline.json"
+}

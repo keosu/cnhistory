@@ -1,0 +1,968 @@
+﻿id,entity_id,name_zh,name_en,start_year,end_year,longitude,latitude
+toolbay-region-0000-period-003,toolbay-region-0000,黄河文明,Yellow River civilization,-4000,-1500,114.0,34.5
+toolbay-region-0000-period-004,toolbay-region-0000,商(殷),Shang(Yin),-1500,-1046,114.0,34.5
+toolbay-region-0006-period-003,toolbay-region-0006,印度河文明,Indus Valley civilization,-2600,-1800,68.0,30.0
+toolbay-region-0014-period-003,toolbay-region-0014,周,Zhou,-1100,-772,108.5,34.5
+toolbay-region-0014-period-004,toolbay-region-0014,东周,Eastern Zhou,-772,-500,110.7,34.5
+toolbay-region-0023-period-003,toolbay-region-0023,宋,Song,-1000,-286,115.0,34.0
+toolbay-region-0024-period-003,toolbay-region-0024,蜀,Shu,-1000,-310,105.0,30.5
+toolbay-region-0025-period-003,toolbay-region-0025,越,Yue,-1000,-334,120.0,29.0
+toolbay-region-0026-period-003,toolbay-region-0026,吴,Wu,-1000,-473,120.0,31.5
+toolbay-region-0027-period-003,toolbay-region-0027,莱,Lai,-1000,-550,120.0,37.0
+toolbay-region-0028-period-003,toolbay-region-0028,齐,Qi,-1000,-772,116.7,37.5
+toolbay-region-0028-period-004,toolbay-region-0028,齐,Qi,-772,-221,116.7,37.5
+toolbay-region-0029-period-003,toolbay-region-0029,燕,Yan,-1000,-772,116.0,40.0
+toolbay-region-0029-period-004,toolbay-region-0029,燕,Yan,-772,-222,116.0,40.0
+toolbay-region-0030-period-003,toolbay-region-0030,楚,Chu,-1000,-277,112.0,29.0
+toolbay-region-0030-period-004,toolbay-region-0030,楚,Chu,-277,-223,115.0,29.5
+toolbay-region-0033-period-003,toolbay-region-0033,匈奴,Hungnu,-800,46,107.0,45.0
+toolbay-region-0033-period-004,toolbay-region-0033,北匈奴,Northan Hungnu,46,100,89.0,47.0
+toolbay-region-0033-period-005,toolbay-region-0033,北匈奴,Northan Hungnu,100,160,81.0,49.5
+toolbay-region-0034-period-003,toolbay-region-0034,羌,Qiang,-800,100,101.0,35.0
+toolbay-region-0035-period-003,toolbay-region-0035,氐,Di,-800,100,101.5,33.0
+toolbay-region-0036-period-003,toolbay-region-0036,闽,Min,-800,-214,116.0,25.0
+toolbay-region-0037-period-003,toolbay-region-0037,摩掲陀（Pradyota王朝）,Magadha(Pradyota dynasty),-799,-684,81.0,24.0
+toolbay-region-0037-period-004,toolbay-region-0037,摩掲陀（童龙王朝）,Magadha(Sishunaga dynasty),-684,-413,81.0,24.0
+toolbay-region-0037-period-005,toolbay-region-0037,摩掲陀（难陀王朝）,Magadha(Nanda dynasty),-413,-321,81.0,24.0
+toolbay-region-0037-period-006,toolbay-region-0037,摩掲陀（孔雀王朝）,Magadha(Maurya dynasty),-321,-180,81.0,24.0
+toolbay-region-0037-period-007,toolbay-region-0037,摩掲陀（巽伽王朝）,Magadha(Sunga dynasty),-180,-71,81.0,24.0
+toolbay-region-0037-period-008,toolbay-region-0037,摩掲陀（甘华王朝）,Magadha(Kanva dynasty),-71,-36,81.0,24.0
+toolbay-region-0037-period-009,toolbay-region-0037,摩掲陀,Magadha,-36,300,81.0,24.0
+toolbay-region-0039-period-003,toolbay-region-0039,Andhra,Andhra,-799,-300,77.0,16.0
+toolbay-region-0040-period-003,toolbay-region-0040,鲁,Lu,-772,-480,116.0,35.5
+toolbay-region-0041-period-003,toolbay-region-0041,郑,Zheng,-772,-403,112.8,33.7
+toolbay-region-0044-period-003,toolbay-region-0044,Kosala,Kosala,-700,-330,77.5,26.0
+toolbay-region-0045-period-003,toolbay-region-0045,Matsya,Matsya,-700,-330,72.0,25.0
+toolbay-region-0046-period-003,toolbay-region-0046,朱罗,Chola dynasty,-700,-300,77.0,11.0
+toolbay-region-0046-period-004,toolbay-region-0046,朱罗,Chola dynasty,-300,-220,77.0,9.7
+toolbay-region-0046-period-005,toolbay-region-0046,朱罗,Chola dynasty,-220,530,77.5,11.7
+toolbay-region-0046-period-006,toolbay-region-0046,朱罗,Chola dynasty,530,540,76.5,13.0
+toolbay-region-0048-period-003,toolbay-region-0048,秦,Qin,-650,-230,107.0,34.0
+toolbay-region-0048-period-004,toolbay-region-0048,秦,Qin,-230,-206,112.0,34.0
+toolbay-region-0048-period-005,toolbay-region-0048,西汉,Western Han,-206,8,112.0,34.0
+toolbay-region-0048-period-006,toolbay-region-0048,新,Xin,8,22,112.0,34.0
+toolbay-region-0048-period-007,toolbay-region-0048,新,Xin,22,29,112.0,26.0
+toolbay-region-0049-period-003,toolbay-region-0049,晋,Jin,-650,-403,110.0,36.0
+toolbay-region-0049-period-004,toolbay-region-0049,晋,Jin,-403,-376,111.0,35.0
+toolbay-region-0050-period-003,toolbay-region-0050,蔡,Cai,-650,-480,113.1,32.4
+toolbay-region-0051-period-003,toolbay-region-0051,濊,Dongye,-650,-128,128.0,42.0
+toolbay-region-0055-period-003,toolbay-region-0055,Avanti,Avanti,-600,-330,73.0,22.0
+toolbay-region-0056-period-003,toolbay-region-0056,健駄逻,Gandhara,-600,-330,71.0,31.0
+toolbay-region-0074-period-003,toolbay-region-0074,中山,Zhongshan,-414,-295,114.0,38.5
+toolbay-region-0075-period-003,toolbay-region-0075,东胡,Donghu,-414,-206,119.0,43.0
+toolbay-region-0076-period-003,toolbay-region-0076,魏,Wei,-403,-225,113.0,35.8
+toolbay-region-0077-period-003,toolbay-region-0077,赵,Zhao,-403,-230,111.0,38.5
+toolbay-region-0077-period-004,toolbay-region-0077,赵,Zhao,-230,-222,113.0,38.5
+toolbay-region-0078-period-003,toolbay-region-0078,韩,Han,-403,-230,111.0,33.5
+toolbay-region-0079-period-003,toolbay-region-0079,月氏,Yuezhi,-403,-176,102.0,38.5
+toolbay-region-0081-period-003,toolbay-region-0081,狮子国,Simhala,-330,1018,80.0,7.0
+toolbay-region-0082-period-003,toolbay-region-0082,狮子国,Simhala,1126,1400,80.0,7.0
+toolbay-region-0083-period-003,toolbay-region-0083,羯陵迦,Kalinga,-330,-259,81.0,19.0
+toolbay-region-0088-period-003,toolbay-region-0088,林胡,Linhu,-310,-206,115.0,43.0
+toolbay-region-0093-period-003,toolbay-region-0093,大夏,Bactria,-255,-139,64.0,37.0
+toolbay-region-0101-period-003,toolbay-region-0101,百乘王朝,Satavahana dynasty,-220,240,76.0,16.0
+toolbay-region-0102-period-003,toolbay-region-0102,Kalinga,Kalinga,-220,300,81.0,19.0
+toolbay-region-0103-period-003,toolbay-region-0103,Pandyan kingdom,Pandyan kingdom,-220,551,77.0,9.4
+toolbay-region-0104-period-003,toolbay-region-0104,大宛,Fergana,-210,427,69.5,43.5
+toolbay-region-0105-period-003,toolbay-region-0105,葱岭,Pamir,-210,-102,72.0,41.0
+toolbay-region-0106-period-003,toolbay-region-0106,伊列,Ili,-210,452,74.7,45.8
+toolbay-region-0107-period-003,toolbay-region-0107,乌孙,Wusun,-210,452,74.7,44.0
+toolbay-region-0108-period-003,toolbay-region-0108,康居,Kangju,-210,452,65.0,45.8
+toolbay-region-0110-period-003,toolbay-region-0110,燕,Yan,-206,-141,117.0,40.0
+toolbay-region-0111-period-003,toolbay-region-0111,齐,Qi,-206,-165,118.0,36.0
+toolbay-region-0112-period-003,toolbay-region-0112,赵,Zhao,-206,-180,115.0,38.0
+toolbay-region-0113-period-003,toolbay-region-0113,淮南,Zhunnan,-206,-180,116.3,29.0
+toolbay-region-0114-period-003,toolbay-region-0114,闽越,Minyue,-206,-110,116.0,25.0
+toolbay-region-0115-period-003,toolbay-region-0115,长纱,Changsha,-206,-157,113.0,27.0
+toolbay-region-0116-period-003,toolbay-region-0116,梁,Liang,-206,-180,115.0,35.5
+toolbay-region-0117-period-003,toolbay-region-0117,楚,Chu,-206,-180,116.0,34.0
+toolbay-region-0118-period-003,toolbay-region-0118,夜郎,Yelong,-206,-27,105.0,27.0
+toolbay-region-0119-period-003,toolbay-region-0119,滇,Dian,-206,-27,103.5,22.8
+toolbay-region-0122-period-003,toolbay-region-0122,倭国,Wa,-196,600,134.0,35.5
+toolbay-region-0122-period-004,toolbay-region-0122,日本,Japan,600,1180,134.0,35.5
+toolbay-region-0122-period-005,toolbay-region-0122,日本(朝廷),Japan(Imperial Court),1180,1221,134.0,35.5
+toolbay-region-0122-period-006,toolbay-region-0122,日本(朝廷),Japan(Imperial Court),1221,1333,134.0,35.5
+toolbay-region-0122-period-007,toolbay-region-0122,日本,Japan,1333,1336,134.0,35.5
+toolbay-region-0122-period-008,toolbay-region-0122,日本,Japan,1336,1351,134.0,36.5
+toolbay-region-0122-period-009,toolbay-region-0122,北朝,Northern Court,1351,1352,134.0,36.5
+toolbay-region-0122-period-010,toolbay-region-0122,日本,Japan,1352,1392,134.0,36.5
+toolbay-region-0122-period-011,toolbay-region-0122,日本,Japan,1392,1467,134.0,35.3
+toolbay-region-0122-period-012,toolbay-region-0122,日本,Japan,1467,1477,139.0,34.0
+toolbay-region-0122-period-013,toolbay-region-0122,日本,Japan,1477,1493,134.0,35.3
+toolbay-region-0122-period-014,toolbay-region-0122,日本,Japan,1493,1603,139.0,33.5
+toolbay-region-0122-period-015,toolbay-region-0122,日本,Japan,1603,1858,140.0,36.0
+toolbay-region-0122-period-016,toolbay-region-0122,日本,Japan,1858,1868,140.0,36.0
+toolbay-region-0122-period-017,toolbay-region-0122,大日本帝国,Empire of Japan,1868,1946,140.0,36.0
+toolbay-region-0122-period-018,toolbay-region-0122,日本国,Japan,1946,9999,140.0,36.0
+toolbay-region-0123-period-003,toolbay-region-0123,熊袭,Kumaso,300,401,130.5,31.6
+toolbay-region-0124-period-003,toolbay-region-0124,(隼人之乱),(Hayato Rebellion),720,721,130.5,31.6
+toolbay-region-0125-period-003,toolbay-region-0125,虾夷,Emishi,500,750,140.0,38.8
+toolbay-region-0125-period-004,toolbay-region-0125,虾夷,Emishi,750,850,140.6,40.5
+toolbay-region-0126-period-003,toolbay-region-0126,阿伊努,Ainu,1100,1798,142.0,43.5
+toolbay-region-0127-period-003,toolbay-region-0127,(藤原纯友),(Fujiwara no Sumitomo),936,941,132.0,33.8
+toolbay-region-0128-period-003,toolbay-region-0128,(平将门),(Taira no Masakado),939,940,140.0,36.0
+toolbay-region-0129-period-003,toolbay-region-0129,(平忠常),(Taira no Tadatsune),1028,1031,140.2,35.5
+toolbay-region-0130-period-003,toolbay-region-0130,安倍氏,Abe clan,1040,1062,141.2,40.3
+toolbay-region-0131-period-003,toolbay-region-0131,清原氏,Kiyohara clan,1040,1062,140.5,39.6
+toolbay-region-0131-period-004,toolbay-region-0131,清原氏,Kiyohara clan,1062,1087,141.0,40.0
+toolbay-region-0131-period-005,toolbay-region-0131,奥州藤原氏,Northern Fujiwara clan,1089,1189,141.0,40.0
+toolbay-region-0132-period-003,toolbay-region-0132,鎌仓幕府,Kamakura shogunate,1180,1219,140.0,36.0
+toolbay-region-0132-period-004,toolbay-region-0132,鎌仓幕府,Kamakura shogunate,1219,1221,140.0,36.0
+toolbay-region-0132-period-005,toolbay-region-0132,日本（鎌仓幕府）,Japan(Kamakura shogunate),1221,1333,140.0,36.0
+toolbay-region-0133-period-003,toolbay-region-0133,(木曾义仲),(Kiso Yoshinaka),1181,1184,136.8,37.0
+toolbay-region-0134-period-003,toolbay-region-0134,南朝（吉野）,Southern Court (Yoshino),1336,1348,135.5,34.3
+toolbay-region-0134-period-004,toolbay-region-0134,南朝（贺名生）,Southern Court (Anou),1348,1351,135.5,34.3
+toolbay-region-0134-period-005,toolbay-region-0134,日本,Japan,1351,1352,135.5,34.3
+toolbay-region-0134-period-006,toolbay-region-0134,南朝（贺名生）,Southern Court (Anou),1352,1354,135.5,34.3
+toolbay-region-0134-period-007,toolbay-region-0134,南朝（住吉）,Southern Court (Sumiyoshi),1354,1392,135.5,34.3
+toolbay-region-0135-period-003,toolbay-region-0135,(中先代之乱),(Nakasendai Rebellion),1335,1336,139.0,35.5
+toolbay-region-0136-period-003,toolbay-region-0136,征西府,Western Conquest Goverment,1348,1368,130.5,33.5
+toolbay-region-0137-period-003,toolbay-region-0137,(足利直冬),(Ashikaga Tadafuyu),1351,1358,131.5,34.4
+toolbay-region-0138-period-003,toolbay-region-0138,(鎌仓府),(Kamakura),1352,1455,140.0,36.0
+toolbay-region-0139-period-003,toolbay-region-0139,细川氏,Hosokawa clan,1467,1477,134.0,33.4
+toolbay-region-0140-period-003,toolbay-region-0140,山名氏,Yamana clan,1467,1477,133.7,35.8
+toolbay-region-0141-period-003,toolbay-region-0141,赤松氏,Akamatsu clan,1467,1477,134.2,35.0
+toolbay-region-0142-period-003,toolbay-region-0142,畠山氏,Hatakeyama clan,1467,1477,135.4,33.9
+toolbay-region-0143-period-003,toolbay-region-0143,兴福寺,Koufukuji,1467,1477,135.8,34.6
+toolbay-region-0144-period-003,toolbay-region-0144,大内氏,Oouchi clan,1467,1477,131.0,34.1
+toolbay-region-0145-period-003,toolbay-region-0145,大友氏,Ootomo clan,1467,1477,131.3,33.0
+toolbay-region-0146-period-003,toolbay-region-0146,岛津氏,Shimazu clan,1467,1477,131.0,31.5
+toolbay-region-0147-period-003,toolbay-region-0147,一色氏,Issiki clan,1467,1477,136.8,34.6
+toolbay-region-0148-period-003,toolbay-region-0148,土岐氏,Toki clan,1467,1477,136.8,35.8
+toolbay-region-0149-period-003,toolbay-region-0149,宗氏,Sou clan,1467,1477,129.7,34.7
+toolbay-region-0150-period-003,toolbay-region-0150,武田氏,Takeda clan,1467,1477,132.6,34.5
+toolbay-region-0151-period-003,toolbay-region-0151,六角氏,Rokkaku clan,1467,1477,135.7,35.0
+toolbay-region-0152-period-003,toolbay-region-0152,京极氏,Kyougoku clan,1467,1477,136.0,35.3
+toolbay-region-0153-period-003,toolbay-region-0153,京极氏,Kyougoku clan,1467,1477,137.4,36.3
+toolbay-region-0154-period-003,toolbay-region-0154,畠山氏,Hatakeyama clan,1467,1477,137.4,36.8
+toolbay-region-0155-period-003,toolbay-region-0155,畠山氏,Hatakeyama clan,1467,1477,137.0,37.3
+toolbay-region-0156-period-003,toolbay-region-0156,本间氏,Honma clan,1467,1477,138.2,38.2
+toolbay-region-0157-period-003,toolbay-region-0157,小笠原氏,Ogasawara clan,1467,1477,138.2,36.3
+toolbay-region-0158-period-003,toolbay-region-0158,斯波氏,Shiba clan,1467,1477,137.8,35.1
+toolbay-region-0159-period-003,toolbay-region-0159,山内上杉氏,Yamanouchi Uesugi clan,1467,1477,139.5,36.9
+toolbay-region-0160-period-003,toolbay-region-0160,宗氏,Sou clan,1493,1587,129.7,34.7
+toolbay-region-0161-period-003,toolbay-region-0161,大内氏,Oouchi clan,1493,1555,132.0,34.5
+toolbay-region-0161-period-004,toolbay-region-0161,毛利氏,Mouri clan,1555,1566,132.5,34.5
+toolbay-region-0161-period-005,toolbay-region-0161,毛利氏,Mouri clan,1566,1600,132.5,35.0
+toolbay-region-0161-period-006,toolbay-region-0161,毛利氏,Mouri clan,1600,1603,132.0,34.6
+toolbay-region-0162-period-003,toolbay-region-0162,尼子氏,Amago clan,1493,1566,133.0,35.5
+toolbay-region-0163-period-003,toolbay-region-0163,大友氏,Ootomo clan,1493,1586,131.7,32.8
+toolbay-region-0164-period-003,toolbay-region-0164,龙造寺氏,Ryuuzouji clan,1530,1544,129.7,33.3
+toolbay-region-0165-period-003,toolbay-region-0165,龙造寺氏,Ryuuzouji clan,1546,1584,129.7,33.3
+toolbay-region-0166-period-003,toolbay-region-0166,斎藤氏,Saito clan,1541,1567,136.7,35.7
+toolbay-region-0167-period-003,toolbay-region-0167,畠山氏,Hatakeyama clan,1493,1577,137.0,37.3
+toolbay-region-0168-period-003,toolbay-region-0168,朝仓氏,Asakura clan,1493,1573,136.1,36.5
+toolbay-region-0169-period-003,toolbay-region-0169,后北条氏,Late Hojo clan,1493,1590,139.6,35.5
+toolbay-region-0170-period-003,toolbay-region-0170,长宗我部氏,Chousokabe clan,1493,1600,133.5,33.5
+toolbay-region-0170-period-004,toolbay-region-0170,山内氏,Yamauchi clan,1600,1603,133.5,33.5
+toolbay-region-0171-period-003,toolbay-region-0171,今川氏,Imagawa clan,1493,1568,138.0,34.7
+toolbay-region-0171-period-004,toolbay-region-0171,德川氏,Tokugawa clan,1568,1590,138.0,34.7
+toolbay-region-0171-period-005,toolbay-region-0171,德川氏,Tokugawa clan,1590,1603,139.6,35.5
+toolbay-region-0172-period-003,toolbay-region-0172,本间氏,Honma clan,1493,1589,138.2,38.2
+toolbay-region-0173-period-003,toolbay-region-0173,长尾氏,Nagao clan,1493,1560,139.3,37.8
+toolbay-region-0173-period-004,toolbay-region-0173,上杉氏,Uesugi clan,1560,1598,139.3,37.8
+toolbay-region-0173-period-005,toolbay-region-0173,上杉氏,Uesugi clan,1598,1603,140.0,38.0
+toolbay-region-0174-period-003,toolbay-region-0174,佐竹氏,Satake clan,1507,1600,140.6,36.5
+toolbay-region-0175-period-003,toolbay-region-0175,武田氏,Takeda clan,1507,1542,138.2,35.8
+toolbay-region-0175-period-004,toolbay-region-0175,武田氏,Takeda clan,1542,1582,138.2,36.4
+toolbay-region-0176-period-003,toolbay-region-0176,织田氏,Oda clan,1527,1567,136.7,34.8
+toolbay-region-0176-period-004,toolbay-region-0176,织田氏,Oda clan,1567,1573,136.7,35.4
+toolbay-region-0176-period-005,toolbay-region-0176,织田氏,Oda clan,1573,1582,135.4,34.9
+toolbay-region-0176-period-006,toolbay-region-0176,羽柴氏,Hashiba clan,1582,1585,135.4,34.9
+toolbay-region-0176-period-007,toolbay-region-0176,豊臣氏,Toyotomi clan,1585,1590,135.4,34.9
+toolbay-region-0177-period-003,toolbay-region-0177,豊臣氏,Toyotomi clan,1598,1615,135.5,34.5
+toolbay-region-0178-period-003,toolbay-region-0178,三好氏,Miyoshi clan,1532,1573,134.7,34.4
+toolbay-region-0179-period-003,toolbay-region-0179,前田氏,Maeda clan,1582,1603,137.0,36.9
+toolbay-region-0180-period-003,toolbay-region-0180,岛津氏,Shimazu clan,1493,1603,131.0,31.5
+toolbay-region-0181-period-003,toolbay-region-0181,南部氏,Nambu clan,1541,1603,141.4,40.8
+toolbay-region-0182-period-003,toolbay-region-0182,伊达氏,Date(Idate) clan,1493,1598,141.2,38.5
+toolbay-region-0182-period-004,toolbay-region-0182,伊达氏,Date(Idate) clan,1598,1603,141.2,39.0
+toolbay-region-0183-period-003,toolbay-region-0183,蛎崎氏,Kakizaki clan,1493,1599,140.5,42.0
+toolbay-region-0183-period-004,toolbay-region-0183,松前氏,Matsumae clan,1599,1603,140.5,42.0
+toolbay-region-0184-period-003,toolbay-region-0184,加藤氏,Katou clan,1598,1603,130.8,32.6
+toolbay-region-0185-period-003,toolbay-region-0185,黒田氏,Kuroda clan,1600,1603,130.7,33.7
+toolbay-region-0186-period-003,toolbay-region-0186,(日本军),(Japanese Army),1592,1594,128.5,37.0
+toolbay-region-0187-period-003,toolbay-region-0187,(日本军),(Japanese Army),1597,1598,127.7,35.8
+toolbay-region-0188-period-003,toolbay-region-0188,虾夷共和国,Republic of Ezo,1868,1869,140.7,42.0
+toolbay-region-0189-period-003,toolbay-region-0189,(西郷隆盛),(Saigou Takamori),1877,1878,130.5,32.0
+toolbay-region-0190-period-003,toolbay-region-0190,韩,Han,-196,250,127.5,35.5
+toolbay-region-0190-period-004,toolbay-region-0190,伽耶,Gaya,250,562,127.5,35.5
+toolbay-region-0191-period-003,toolbay-region-0191,卫氏朝鲜,Joseon,-196,-108,126.0,38.5
+toolbay-region-0192-period-003,toolbay-region-0192,吴,Wu,-196,-154,120.0,29.0
+toolbay-region-0193-period-003,toolbay-region-0193,南越,Namyue,-196,-110,110.5,23.0
+toolbay-region-0198-period-003,toolbay-region-0198,大月氏,DaYuezhi,-176,-139,66.0,41.0
+toolbay-region-0198-period-004,toolbay-region-0198,大月氏,DaYuezhi,-139,30,66.0,38.0
+toolbay-region-0198-period-005,toolbay-region-0198,贵霜王朝,Kushan Empire,30,380,69.0,34.0
+toolbay-region-0199-period-003,toolbay-region-0199,代,Dai,-165,-154,115.0,39.0
+toolbay-region-0200-period-003,toolbay-region-0200,罽宾,Kashmir,-160,-80,69.0,34.0
+toolbay-region-0201-period-003,toolbay-region-0201,Arachosia,Arachosia,-160,-139,61.5,29.5
+toolbay-region-0210-period-003,toolbay-region-0210,鲜卑,Xianbei,-108,46,122.5,46.0
+toolbay-region-0210-period-004,toolbay-region-0210,鲜卑,Xianbei,46,207,107.0,45.0
+toolbay-region-0210-period-005,toolbay-region-0210,(鲜卑诸部),(Xianbei regions),207,280,107.0,45.0
+toolbay-region-0211-period-003,toolbay-region-0211,扶余,Buyeo,-108,100,127.5,45.0
+toolbay-region-0212-period-003,toolbay-region-0212,乌桓,Wuhuan,-108,190,120.4,42.6
+toolbay-region-0214-period-003,toolbay-region-0214,(西域诸国),(Western Regions),-102,100,79.0,42.0
+toolbay-region-0216-period-003,toolbay-region-0216,塞,Sacae,-80,390,70.5,25.0
+toolbay-region-0217-period-003,toolbay-region-0217,西匈奴,Western Hungnu,-60,-36,84.0,49.0
+toolbay-region-0218-period-003,toolbay-region-0218,高句丽,Goguryeo,-37,392,125.0,42.4
+toolbay-region-0218-period-004,toolbay-region-0218,高句丽,Goguryeo,392,668,125.0,42.4
+toolbay-region-0219-period-003,toolbay-region-0219,濊,Dongye,-37,313,127.5,39.0
+toolbay-region-0220-period-003,toolbay-region-0220,沃沮,Okjeo,-37,246,128.0,41.0
+toolbay-region-0220-period-004,toolbay-region-0220,北沃沮,Northean Okjeo,246,342,128.7,42.0
+toolbay-region-0221-period-003,toolbay-region-0221,东汉,Eastern Han,22,24,112.0,34.0
+toolbay-region-0221-period-004,toolbay-region-0221,东汉,Eastern Han,24,29,113.0,38.0
+toolbay-region-0221-period-005,toolbay-region-0221,东汉,Eastern Han,29,191,112.0,34.0
+toolbay-region-0221-period-006,toolbay-region-0221,东汉,Eastern Han,191,210,110.0,34.0
+toolbay-region-0222-period-003,toolbay-region-0222,(王郎),(Wang Long),23,24,116.0,40.0
+toolbay-region-0223-period-003,toolbay-region-0223,楚,Chu,24,25,112.0,31.0
+toolbay-region-0224-period-003,toolbay-region-0224,汉中,Han Zhong,24,26,108.0,34.0
+toolbay-region-0225-period-003,toolbay-region-0225,梁,Liang,24,29,119.0,33.0
+toolbay-region-0226-period-003,toolbay-region-0226,(公孙述),(Gong Sun-shu),24,25,104.0,30.0
+toolbay-region-0226-period-004,toolbay-region-0226,成,Cheng,25,36,104.0,30.0
+toolbay-region-0227-period-003,toolbay-region-0227,凉,Liang,24,35,101.0,39.5
+toolbay-region-0228-period-003,toolbay-region-0228,赤眉军,Chimei,25,26,109.0,36.0
+toolbay-region-0229-period-003,toolbay-region-0229,燕,Yan,26,29,119.0,41.0
+toolbay-region-0230-period-003,toolbay-region-0230,(卢芳),(Lu Feng),29,36,111.0,40.0
+toolbay-region-0231-period-003,toolbay-region-0231,(徴氏姐妹),(Trung sisters),40,43,104.5,19.5
+toolbay-region-0232-period-003,toolbay-region-0232,(南匈奴),(Southan Hungnu),46,190,107.0,40.0
+toolbay-region-0232-period-004,toolbay-region-0232,(南匈奴),(Southan Hungnu),190,300,109.0,36.0
+toolbay-region-0233-period-003,toolbay-region-0233,南沃沮,Southean Okjeo,246,294,127.5,40.7
+toolbay-region-0236-period-003,toolbay-region-0236,辽东,Liaodong,190,238,121.5,39.0
+toolbay-region-0237-period-003,toolbay-region-0237,骠,Pyu,200,1044,95.0,18.0
+toolbay-region-0237-period-004,toolbay-region-0237,蒲甘王国,Pagan Kingdom,1044,1287,95.0,22.0
+toolbay-region-0237-period-005,toolbay-region-0237,(蒲甘王国),(Pagan Kingdom),1287,1299,95.0,22.0
+toolbay-region-0238-period-003,toolbay-region-0238,(袁绍),(Yuan shao),191,202,113.0,37.0
+toolbay-region-0239-period-003,toolbay-region-0239,(刘表),(Liu biao),191,208,112.5,30.0
+toolbay-region-0240-period-003,toolbay-region-0240,(刘备),(Liu bei),209,214,112.5,30.4
+toolbay-region-0240-period-004,toolbay-region-0240,(刘备),(Liu bei),214,221,106.0,31.0
+toolbay-region-0240-period-005,toolbay-region-0240,蜀汉,Shu Han,221,263,106.0,31.0
+toolbay-region-0241-period-003,toolbay-region-0241,(刘焉),(Liu yan),191,194,106.0,31.0
+toolbay-region-0241-period-004,toolbay-region-0241,(刘焉),(Liu yan),194,214,106.0,31.0
+toolbay-region-0242-period-003,toolbay-region-0242,(曹操),(Cao cao),200,220,115.0,34.0
+toolbay-region-0242-period-004,toolbay-region-0242,魏,Cao Wei,220,265,115.0,34.0
+toolbay-region-0242-period-005,toolbay-region-0242,晋,Jin,265,314,115.0,34.0
+toolbay-region-0242-period-006,toolbay-region-0242,晋,Jin,314,316,117.0,30.0
+toolbay-region-0242-period-007,toolbay-region-0242,东晋,Eastern Jin,316,420,117.0,30.0
+toolbay-region-0242-period-008,toolbay-region-0242,宋,Song,420,479,112.0,30.0
+toolbay-region-0242-period-009,toolbay-region-0242,齐,Qi,479,502,112.0,30.0
+toolbay-region-0242-period-010,toolbay-region-0242,梁,Liang,502,552,112.0,30.0
+toolbay-region-0242-period-011,toolbay-region-0242,梁,Liang,552,557,114.0,28.5
+toolbay-region-0242-period-012,toolbay-region-0242,陈,Chen,557,589,114.0,28.5
+toolbay-region-0243-period-003,toolbay-region-0243,(孙権),(Sun quan),200,222,117.0,29.0
+toolbay-region-0243-period-004,toolbay-region-0243,吴,Wu,222,280,117.0,29.0
+toolbay-region-0244-period-003,toolbay-region-0244,(士燮),(Shi Xie),200,226,109.0,23.0
+toolbay-region-0245-period-003,toolbay-region-0245,林邑,Champa,200,757,108.0,13.5
+toolbay-region-0245-period-004,toolbay-region-0245,环王国,Champa,757,860,108.0,13.5
+toolbay-region-0245-period-005,toolbay-region-0245,占城,Champa,860,1428,108.0,13.5
+toolbay-region-0245-period-006,toolbay-region-0245,占城,Champa,1428,1471,108.0,12.5
+toolbay-region-0247-period-003,toolbay-region-0247,铁勒,Tiele,230,400,85.0,48.0
+toolbay-region-0248-period-003,toolbay-region-0248,丁零,Dingling,230,376,113.0,50.0
+toolbay-region-0248-period-004,toolbay-region-0248,高车,Gaoche,376,404,105.0,48.0
+toolbay-region-0249-period-003,toolbay-region-0249,扶南国,Funan,246,630,104.0,10.8
+toolbay-region-0250-period-003,toolbay-region-0250,慕容部,Murong Tribe,280,311,119.0,46.0
+toolbay-region-0250-period-004,toolbay-region-0250,慕容部,Murong Tribe,311,337,120.0,43.0
+toolbay-region-0250-period-005,toolbay-region-0250,前燕,Former Yan,337,370,120.0,43.0
+toolbay-region-0251-period-003,toolbay-region-0251,段部,Duan Tribe,280,311,118.0,43.0
+toolbay-region-0251-period-004,toolbay-region-0251,段部,Duan Tribe,311,337,118.0,41.0
+toolbay-region-0252-period-003,toolbay-region-0252,宇文部,Yuwen Tribe,280,311,113.0,44.5
+toolbay-region-0252-period-004,toolbay-region-0252,宇文部,Yuwen Tribe,311,344,115.0,43.0
+toolbay-region-0253-period-003,toolbay-region-0253,代部,Dai Tribe,280,376,109.0,42.5
+toolbay-region-0254-period-003,toolbay-region-0254,乞伏部,Qifu Tribe,280,313,105.5,39.0
+toolbay-region-0255-period-003,toolbay-region-0255,狼牙脩王国,Langkasuka kingdom,300,1279,98.0,9.0
+toolbay-region-0256-period-003,toolbay-region-0256,伐迦陀迦,Vakataka kingdom,300,540,75.0,18.0
+toolbay-region-0256-period-004,toolbay-region-0256,伐迦陀迦,Vakataka kingdom,540,551,77.0,21.0
+toolbay-region-0257-period-003,toolbay-region-0257,帕拉瓦王朝,Pallava kingdom,300,551,81.0,17.0
+toolbay-region-0257-period-004,toolbay-region-0257,帕拉瓦王朝,Pallava kingdom,551,630,79.0,14.0
+toolbay-region-0257-period-005,toolbay-region-0257,帕拉瓦王朝,Pallava kingdom,630,753,77.0,11.5
+toolbay-region-0257-period-006,toolbay-region-0257,帕拉瓦王朝,Pallava kingdom,753,893,77.0,12.5
+toolbay-region-0259-period-003,toolbay-region-0259,前赵,Han Zhao,304,319,111.5,37.0
+toolbay-region-0259-period-004,toolbay-region-0259,前赵,Han Zhao,319,329,108.0,35.0
+toolbay-region-0260-period-003,toolbay-region-0260,成汉,Cheng Han,304,347,105.0,28.0
+toolbay-region-0262-period-003,toolbay-region-0262,吐谷浑,Toyuhun,311,401,100.0,38.0
+toolbay-region-0262-period-004,toolbay-region-0262,吐谷浑,Toyuhun,401,635,95.0,38.0
+toolbay-region-0262-period-005,toolbay-region-0262,吐谷浑,Toyuhun,635,663,93.0,37.0
+toolbay-region-0263-period-003,toolbay-region-0263,前凉,Former Liang,313,376,97.0,41.0
+toolbay-region-0264-period-003,toolbay-region-0264,后赵,Later Zhao,319,351,115.0,37.2
+toolbay-region-0265-period-003,toolbay-region-0265,笈多王朝,Gupta Empire,320,550,81.0,26.0
+toolbay-region-0266-period-003,toolbay-region-0266,摩腊婆,Malwa,320,360,77.0,28.0
+toolbay-region-0267-period-003,toolbay-region-0267,百济,Beakje,346,660,126.0,36.8
+toolbay-region-0269-period-003,toolbay-region-0269,魏,Wei,350,352,113.0,36.0
+toolbay-region-0273-period-003,toolbay-region-0273,前秦,Former Qin,351,384,108.0,35.0
+toolbay-region-0273-period-004,toolbay-region-0273,前秦,Former Qin,384,394,110.0,33.0
+toolbay-region-0274-period-003,toolbay-region-0274,新罗,Silla,356,562,128.5,37.2
+toolbay-region-0274-period-004,toolbay-region-0274,新罗,Silla,562,663,128.5,37.2
+toolbay-region-0274-period-005,toolbay-region-0274,新罗,Silla,663,899,127.5,37.2
+toolbay-region-0274-period-006,toolbay-region-0274,新罗,Silla,899,905,128.4,38.0
+toolbay-region-0274-period-007,toolbay-region-0274,新罗,Silla,905,935,128.8,36.5
+toolbay-region-0277-period-003,toolbay-region-0277,契丹,Khitan,337,560,117.0,43.0
+toolbay-region-0278-period-003,toolbay-region-0278,契丹,Khitan,586,654,117.0,43.0
+toolbay-region-0279-period-003,toolbay-region-0279,契丹,Khitan,696,698,117.0,40.5
+toolbay-region-0280-period-003,toolbay-region-0280,契丹,Khitan,756,918,119.0,43.5
+toolbay-region-0280-period-004,toolbay-region-0280,契丹,Khitan,918,947,113.0,44.5
+toolbay-region-0280-period-005,toolbay-region-0280,辽(契丹),Liao(Khitan),947,983,113.0,44.5
+toolbay-region-0280-period-006,toolbay-region-0280,契丹,Khitan,983,1066,113.0,44.5
+toolbay-region-0280-period-007,toolbay-region-0280,辽(契丹),Liao(Khitan),1066,1125,113.0,44.5
+toolbay-region-0281-period-003,toolbay-region-0281,柔然,Rouran,376,431,102.0,44.5
+toolbay-region-0281-period-004,toolbay-region-0281,柔然,Rouran,431,552,102.0,46.0
+toolbay-region-0282-period-003,toolbay-region-0282,后秦,Later Qin,384,394,109.0,35.9
+toolbay-region-0282-period-004,toolbay-region-0282,后秦,Later Qin,394,410,109.0,36.3
+toolbay-region-0282-period-005,toolbay-region-0282,后秦,Later Qin,410,417,109.7,34.5
+toolbay-region-0283-period-003,toolbay-region-0283,西燕,Eastern Yan,384,394,113.0,37.0
+toolbay-region-0284-period-003,toolbay-region-0284,后燕,Later Yan,384,398,117.0,38.0
+toolbay-region-0284-period-004,toolbay-region-0284,后燕,Later Yan,398,407,118.0,41.0
+toolbay-region-0284-period-005,toolbay-region-0284,北燕,Northern Yan,407,436,118.0,41.0
+toolbay-region-0285-period-003,toolbay-region-0285,后凉,Later Liang,384,403,104.0,38.0
+toolbay-region-0286-period-003,toolbay-region-0286,西秦,Western Qin,385,431,106.0,34.0
+toolbay-region-0287-period-003,toolbay-region-0287,北魏,Northan Wei,386,392,112.0,41.0
+toolbay-region-0287-period-004,toolbay-region-0287,北魏,Northan Wei,392,407,110.0,41.0
+toolbay-region-0287-period-005,toolbay-region-0287,北魏,Northan Wei,407,427,113.0,41.0
+toolbay-region-0287-period-006,toolbay-region-0287,北魏,Northan Wei,427,534,109.0,39.5
+toolbay-region-0287-period-007,toolbay-region-0287,北魏,Northan Wei,534,535,106.0,38.5
+toolbay-region-0287-period-008,toolbay-region-0287,西魏,Western Wei,535,556,106.0,38.5
+toolbay-region-0287-period-009,toolbay-region-0287,北周,Northern Zhou,556,578,106.0,38.5
+toolbay-region-0287-period-010,toolbay-region-0287,北周,Northern Zhou,578,581,110.0,38.0
+toolbay-region-0287-period-011,toolbay-region-0287,隋,Sui,581,589,110.0,38.0
+toolbay-region-0287-period-012,toolbay-region-0287,隋,Sui,589,617,112.0,33.0
+toolbay-region-0287-period-013,toolbay-region-0287,隋,Sui,617,620,106.0,28.0
+toolbay-region-0288-period-003,toolbay-region-0288,铁弗部,Tiefu Tribe,386,392,109.0,39.0
+toolbay-region-0295-period-003,toolbay-region-0295,南凉,Southean Liang,397,414,104.0,36.0
+toolbay-region-0296-period-003,toolbay-region-0296,北凉,Northern Liang,397,401,97.0,41.0
+toolbay-region-0296-period-004,toolbay-region-0296,北凉,Northern Liang,401,439,101.5,40.0
+toolbay-region-0297-period-003,toolbay-region-0297,南燕,Southean Yan,398,410,118.0,36.5
+toolbay-region-0298-period-003,toolbay-region-0298,三佛乔（室利佛逝）,Srivijaya Empire,400,790,100.0,0.0
+toolbay-region-0299-period-003,toolbay-region-0299,三佛乔（室利佛逝）,Srivijaya Empire,832,1342,100.0,0.0
+toolbay-region-0301-period-003,toolbay-region-0301,西凉,Western Liang,401,421,97.0,41.0
+toolbay-region-0302-period-003,toolbay-region-0302,后蜀,Western Shu,405,413,103.0,27.0
+toolbay-region-0303-period-003,toolbay-region-0303,夏,Xia,407,427,108.0,39.0
+toolbay-region-0303-period-004,toolbay-region-0303,夏,Xia,427,431,107.0,37.0
+toolbay-region-0307-period-003,toolbay-region-0307,嚈哒,Ephthal,427,430,69.5,43.5
+toolbay-region-0307-period-004,toolbay-region-0307,嚈哒,Ephthal,430,453,69.5,37.0
+toolbay-region-0307-period-005,toolbay-region-0307,嚈哒,Ephthal,453,567,65.0,37.0
+toolbay-region-0311-period-003,toolbay-region-0311,耽罗,Tamna,450,662,126.5,33.4
+toolbay-region-0318-period-003,toolbay-region-0318,高车,Gaoche,487,516,79.0,44.0
+toolbay-region-0319-period-003,toolbay-region-0319,Vallabhi dynasty,Vallabhi dynasty,495,780,71.0,25.0
+toolbay-region-0319-period-004,toolbay-region-0319,Maitraka dynasty,Maitraka dynasty,780,840,71.0,25.0
+toolbay-region-0322-period-003,toolbay-region-0322,遮娄其王朝,Chalukya dynasty,543,551,75.0,15.0
+toolbay-region-0322-period-004,toolbay-region-0322,遮娄其王朝,Chalukya dynasty,551,642,77.0,20.0
+toolbay-region-0323-period-003,toolbay-region-0323,遮娄其王朝,Chalukya dynasty,655,753,77.0,20.0
+toolbay-region-0323-period-004,toolbay-region-0323,罗湿陀罗拘陀王朝,Rashtrakuta dynasty,753,973,77.0,20.0
+toolbay-region-0323-period-005,toolbay-region-0323,西遮娄其王朝,Western Chalukya dynasty,973,1190,77.0,20.0
+toolbay-region-0337-period-003,toolbay-region-0337,曲女城,Kannauj,530,610,77.0,27.0
+toolbay-region-0337-period-004,toolbay-region-0337,戒日王朝,Kingdom of Vardhana,610,647,80.0,26.5
+toolbay-region-0338-period-003,toolbay-region-0338,东魏,Eastern Wei,534,550,116.0,39.0
+toolbay-region-0338-period-004,toolbay-region-0338,北齐,Northern Qi,550,578,116.0,39.0
+toolbay-region-0339-period-003,toolbay-region-0339,万春（前李朝）,Van Xuan (Liang dynasty),544,602,104.5,19.5
+toolbay-region-0340-period-003,toolbay-region-0340,黒水靺鞨,Heishui Mohe,550,650,133.0,51.0
+toolbay-region-0341-period-003,toolbay-region-0341,粟末靺鞨,Sumo Mohe,550,650,128.0,46.0
+toolbay-region-0343-period-003,toolbay-region-0343,突厥,Göktürks,551,586,88.0,46.0
+toolbay-region-0343-period-004,toolbay-region-0343,东突厥,Eastern Göktürks,586,630,102.0,46.0
+toolbay-region-0344-period-003,toolbay-region-0344,突厥,Göktürks,682,740,106.0,48.0
+toolbay-region-0344-period-004,toolbay-region-0344,突厥,Göktürks,740,744,109.0,44.0
+toolbay-region-0347-period-003,toolbay-region-0347,西梁,Western Liang,552,553,107.0,30.0
+toolbay-region-0348-period-003,toolbay-region-0348,后梁,Later Liang,555,587,113.0,32.0
+toolbay-region-0349-period-003,toolbay-region-0349,Sudhra dynasty,Sudhra dynasty,567,712,66.0,30.0
+toolbay-region-0350-period-003,toolbay-region-0350,西突厥,Western Göktürks,586,657,66.0,45.0
+toolbay-region-0351-period-003,toolbay-region-0351,陀罗钵地王国,Dvaravati kingdom,600,1000,100.0,16.0
+toolbay-region-0352-period-003,toolbay-region-0352,铁勒,Tiele,602,630,86.0,49.0
+toolbay-region-0353-period-003,toolbay-region-0353,吐蕃,Tubut,617,880,85.0,33.0
+toolbay-region-0353-period-004,toolbay-region-0353,(吐蕃诸王国),(Tibetan kingdoms),880,1220,90.0,33.0
+toolbay-region-0354-period-003,toolbay-region-0354,魏,Wei,617,618,116.0,36.0
+toolbay-region-0355-period-003,toolbay-region-0355,西秦,Western Qin,617,618,107.0,35.0
+toolbay-region-0356-period-003,toolbay-region-0356,凉,Liang,617,619,100.0,40.0
+toolbay-region-0357-period-003,toolbay-region-0357,(李渊),(Li Yuan),617,618,111.0,35.0
+toolbay-region-0357-period-004,toolbay-region-0357,唐,Tang,618,624,109.0,35.0
+toolbay-region-0357-period-005,toolbay-region-0357,唐,Tang,625,690,112.0,33.0
+toolbay-region-0357-period-006,toolbay-region-0357,周,Zhou,690,705,112.0,33.0
+toolbay-region-0357-period-007,toolbay-region-0357,唐,Tang,705,756,112.0,33.0
+toolbay-region-0357-period-008,toolbay-region-0357,唐,Tang,756,763,106.0,30.0
+toolbay-region-0357-period-009,toolbay-region-0357,唐,Tang,763,874,112.0,33.0
+toolbay-region-0357-period-010,toolbay-region-0357,唐,Tang,874,884,108.0,31.0
+toolbay-region-0357-period-011,toolbay-region-0357,唐,Tang,884,891,112.0,33.0
+toolbay-region-0357-period-012,toolbay-region-0357,唐,Tang,891,907,112.0,36.0
+toolbay-region-0358-period-003,toolbay-region-0358,梁,Liang,617,628,109.0,39.0
+toolbay-region-0359-period-003,toolbay-region-0359,梁,Liang,617,621,111.0,25.0
+toolbay-region-0360-period-003,toolbay-region-0360,楚,Chu,617,621,115.0,26.0
+toolbay-region-0361-period-003,toolbay-region-0361,夏,Xia,618,621,116.0,36.0
+toolbay-region-0361-period-004,toolbay-region-0361,汉东,Handong,621,623,116.0,38.0
+toolbay-region-0362-period-003,toolbay-region-0362,吴,Wu,618,621,119.5,33.0
+toolbay-region-0363-period-003,toolbay-region-0363,宋,Song,618,624,116.0,31.0
+toolbay-region-0364-period-003,toolbay-region-0364,郑,Zheng,619,621,113.5,33.0
+toolbay-region-0365-period-003,toolbay-region-0365,薛延陀,Syr-Tardusi,630,646,90.0,49.0
+toolbay-region-0366-period-003,toolbay-region-0366,真腊,Chenla,602,630,102.5,14.0
+toolbay-region-0366-period-004,toolbay-region-0366,真腊,Chenla,630,713,104.0,11.5
+toolbay-region-0367-period-003,toolbay-region-0367,水真腊,Chenla of the Sea,713,750,104.0,11.5
+toolbay-region-0368-period-003,toolbay-region-0368,陆真腊,Chenla of the Land,713,840,103.5,17.5
+toolbay-region-0369-period-003,toolbay-region-0369,Licchavi,Licchavi,590,900,82.0,28.6
+toolbay-region-0369-period-004,toolbay-region-0369,尼泊尔,Nepal,900,1500,82.0,28.6
+toolbay-region-0370-period-003,toolbay-region-0370,柯尔克孜,Kyrgyz,630,650,101.0,56.0
+toolbay-region-0371-period-003,toolbay-region-0371,东遮娄其王朝,Eastern Chalukya dynasty,624,973,81.0,17.5
+toolbay-region-0376-period-003,toolbay-region-0376,吐火罗突厥,Tokhara Göktürks,646,657,63.0,35.0
+toolbay-region-0383-period-003,toolbay-region-0383,震,Zhen,698,713,127.0,43.0
+toolbay-region-0383-period-004,toolbay-region-0383,渤海,Bohai,713,918,127.0,43.0
+toolbay-region-0383-period-005,toolbay-region-0383,渤海,Bohai,918,926,129.0,43.0
+toolbay-region-0389-period-003,toolbay-region-0389,突骑施,Torgish,708,740,74.0,45.0
+toolbay-region-0389-period-004,toolbay-region-0389,突骑施,Torgish,740,744,65.0,45.0
+toolbay-region-0396-period-003,toolbay-region-0396,南诏,Nanzhao,738,902,101.0,26.0
+toolbay-region-0396-period-004,toolbay-region-0396,长和,Changhe,902,937,101.0,26.0
+toolbay-region-0396-period-005,toolbay-region-0396,前大理国,Kingdom of Dali,937,1094,101.0,26.0
+toolbay-region-0396-period-006,toolbay-region-0396,大中国,Kingdom of Dazhong,1094,1095,101.0,26.0
+toolbay-region-0396-period-007,toolbay-region-0396,后大理国,Kingdom of Dali,1095,1253,101.0,26.0
+toolbay-region-0397-period-003,toolbay-region-0397,回纥,Uyghur,740,744,104.0,50.0
+toolbay-region-0397-period-004,toolbay-region-0397,回纥汗国,Uyghur Khaganate,744,840,104.0,50.0
+toolbay-region-0397-period-005,toolbay-region-0397,回纥,Uyghur,840,860,86.0,41.0
+toolbay-region-0397-period-006,toolbay-region-0397,天山回纥,Tian-shan Uyghur,860,1132,88.0,41.0
+toolbay-region-0398-period-003,toolbay-region-0398,吉尔吉斯,Kyrgyz,740,840,90.0,56.0
+toolbay-region-0398-period-004,toolbay-region-0398,吉尔吉斯,Kyrgyz,840,918,100.0,49.0
+toolbay-region-0398-period-005,toolbay-region-0398,吉尔吉斯,Kyrgyz,918,940,90.0,45.0
+toolbay-region-0398-period-006,toolbay-region-0398,吉尔吉斯,Kyrgyz,940,1211,93.0,53.0
+toolbay-region-0403-period-003,toolbay-region-0403,夏连特拉王国,Sailendra,752,770,108.0,-7.0
+toolbay-region-0403-period-004,toolbay-region-0403,夏连特拉王国,Sailendra,770,790,107.0,-4.0
+toolbay-region-0403-period-005,toolbay-region-0403,夏连特拉王国,Sailendra,790,832,100.0,0.0
+toolbay-region-0403-period-006,toolbay-region-0403,夏连特拉王国,Sailendra,832,860,110.0,-2.0
+toolbay-region-0404-period-003,toolbay-region-0404,潘地亚王朝,Pandyan kingdom,753,920,77.0,9.5
+toolbay-region-0405-period-003,toolbay-region-0405,燕,Yan,756,763,115.0,38.0
+toolbay-region-0406-period-003,toolbay-region-0406,葛逻禄,Karluks,760,800,66.0,45.0
+toolbay-region-0407-period-003,toolbay-region-0407,葛逻禄,Karluks,840,940,66.0,45.0
+toolbay-region-0408-period-003,toolbay-region-0408,波罗王朝,Pala Empire,760,1070,87.0,25.0
+toolbay-region-0408-period-004,toolbay-region-0408,波罗王朝,Pala Empire,1070,1174,86.0,26.0
+toolbay-region-0409-period-003,toolbay-region-0409,Pratihara Empire,Pratihara Empire,760,1018,74.0,28.0
+toolbay-region-0414-period-003,toolbay-region-0414,罽宾,Kashmir,790,1211,73.0,34.0
+toolbay-region-0426-period-003,toolbay-region-0426,高棉帝国,Khmer Empire,802,1431,104.0,11.5
+toolbay-region-0427-period-003,toolbay-region-0427,柬埔寨王国,Kingdom of Cambodia,1434,1800,104.0,12.0
+toolbay-region-0427-period-004,toolbay-region-0427,柬埔寨王国,Kingdom of Cambodia,1800,1863,104.0,12.0
+toolbay-region-0427-period-005,toolbay-region-0427,法保护领柬埔寨,French Protecturate of Cambodia,1863,1944,104.0,12.0
+toolbay-region-0427-period-006,toolbay-region-0427,柬埔寨王国,Kingdom of Cambodia,1944,1945,104.0,12.0
+toolbay-region-0427-period-007,toolbay-region-0427,柬埔寨(英国佔领的),Cambodia(British occupation),1945,1946,104.0,12.0
+toolbay-region-0428-period-003,toolbay-region-0428,法保护领柬埔寨,French Protecturate of Cambodia,1949,1953,104.0,12.0
+toolbay-region-0428-period-004,toolbay-region-0428,柬埔寨王国,Kingdom of Cambodia,1953,1970,104.0,12.0
+toolbay-region-0428-period-005,toolbay-region-0428,高棉共和国,Khmer Republic,1970,1975,104.0,12.0
+toolbay-region-0428-period-006,toolbay-region-0428,民主柬埔寨,Democratic Cambodia,1975,1976,104.0,12.0
+toolbay-region-0428-period-007,toolbay-region-0428,民主柬埔寨,Democratic Kampuchea,1976,1979,104.0,12.0
+toolbay-region-0428-period-008,toolbay-region-0428,柬埔寨人民共和国,People's Republic of Kampuchea,1979,1989,104.0,12.0
+toolbay-region-0428-period-009,toolbay-region-0428,柬埔寨人民共和国,People's Republic of Kampuchea,1989,1991,104.0,12.0
+toolbay-region-0428-period-010,toolbay-region-0428,柬埔寨王国,Kingdom of Cambodia,1991,1992,104.0,12.0
+toolbay-region-0428-period-011,toolbay-region-0428,柬埔寨王国,Kingdom of Cambodia,1992,1993,104.0,12.0
+toolbay-region-0428-period-012,toolbay-region-0428,柬埔寨王国,Kingdom of Cambodia,1993,9999,104.0,12.0
+toolbay-region-0430-period-003,toolbay-region-0430,塔赫尔王朝,Tahirid dynasty,821,873,60.0,35.0
+toolbay-region-0432-period-003,toolbay-region-0432,注辇王朝,Chola dynasty,840,893,78.0,10.8
+toolbay-region-0432-period-004,toolbay-region-0432,注辇王朝,Chola dynasty,893,920,79.0,13.0
+toolbay-region-0432-period-005,toolbay-region-0432,注辇王朝,Chola dynasty,920,1126,77.0,13.0
+toolbay-region-0432-period-006,toolbay-region-0432,注辇王朝,Chola dynasty,1126,1258,79.0,16.0
+toolbay-region-0432-period-007,toolbay-region-0432,注辇王朝,Chola dynasty,1258,1279,79.7,17.5
+toolbay-region-0433-period-003,toolbay-region-0433,克烈,Kerait,860,918,113.0,50.0
+toolbay-region-0433-period-004,toolbay-region-0433,克烈,Kerait,918,1100,111.0,53.0
+toolbay-region-0433-period-005,toolbay-region-0433,克烈,Kerait,1100,1150,105.0,48.0
+toolbay-region-0433-period-006,toolbay-region-0433,克烈,Kerait,1150,1204,101.0,48.0
+toolbay-region-0444-period-003,toolbay-region-0444,撒法利王朝,Saffarid dynasty,861,1003,61.0,29.0
+toolbay-region-0447-period-003,toolbay-region-0447,(黄巣),(Huang Chao),874,878,114.3,35.5
+toolbay-region-0447-period-004,toolbay-region-0447,齐,Qi,878,884,114.3,35.5
+toolbay-region-0450-period-003,toolbay-region-0450,古格王国,Guge Kingdom,880,1150,78.3,34.7
+toolbay-region-0454-period-003,toolbay-region-0454,后梁,Later Liang,907,923,112.0,36.0
+toolbay-region-0454-period-004,toolbay-region-0454,后唐,Later Tang,923,936,112.0,36.0
+toolbay-region-0454-period-005,toolbay-region-0454,后晋,Later Jin,936,947,112.0,36.0
+toolbay-region-0454-period-006,toolbay-region-0454,后汉,Later Han,947,951,112.0,36.0
+toolbay-region-0454-period-007,toolbay-region-0454,后周,Later Zhou,951,960,112.0,33.0
+toolbay-region-0454-period-008,toolbay-region-0454,北宋,Northern Song,960,1127,112.0,33.0
+toolbay-region-0454-period-009,toolbay-region-0454,南宋,Southern Song,1127,1270,112.0,28.0
+toolbay-region-0454-period-010,toolbay-region-0454,南宋,Southern Song,1170,1279,114.0,23.0
+toolbay-region-0465-period-003,toolbay-region-0465,(王建),(Wang Jian),891,907,105.0,30.5
+toolbay-region-0465-period-004,toolbay-region-0465,前蜀,Former Shu,907,925,105.0,30.5
+toolbay-region-0466-period-003,toolbay-region-0466,(孟知祥),(Meng Zhixiang),932,934,105.0,30.5
+toolbay-region-0466-period-004,toolbay-region-0466,后蜀,Later Shu,907,925,105.0,30.5
+toolbay-region-0467-period-003,toolbay-region-0467,(杨行密),(Yáng Xíngmì),892,902,115.0,30.0
+toolbay-region-0467-period-004,toolbay-region-0467,吴,Wu,902,937,115.0,30.0
+toolbay-region-0467-period-005,toolbay-region-0467,南唐,Southern Tang,937,956,115.0,30.0
+toolbay-region-0467-period-006,toolbay-region-0467,南唐,Southern Tang,956,975,115.0,28.0
+toolbay-region-0468-period-003,toolbay-region-0468,(钱鏐),(Qián Liú),893,907,119.5,29.0
+toolbay-region-0468-period-004,toolbay-region-0468,吴越,WuYue,907,978,119.5,29.0
+toolbay-region-0469-period-003,toolbay-region-0469,闽,Min,893,945,117.0,26.0
+toolbay-region-0470-period-003,toolbay-region-0470,(马殷),(Ma Yin),896,907,108.0,27.0
+toolbay-region-0470-period-004,toolbay-region-0470,楚,Chu,907,940,108.0,27.0
+toolbay-region-0470-period-005,toolbay-region-0470,楚,Chu,940,951,110.0,27.0
+toolbay-region-0471-period-003,toolbay-region-0471,(甄萱),(Gyeon Hwon),892,900,126.7,35.2
+toolbay-region-0471-period-004,toolbay-region-0471,后百济,Later Baekje,900,936,126.7,35.2
+toolbay-region-0472-period-003,toolbay-region-0472,(弓裔),(Gung Ye),899,901,126.5,36.6
+toolbay-region-0472-period-004,toolbay-region-0472,后高句丽,Later Goguryeo,901,905,126.5,36.6
+toolbay-region-0472-period-005,toolbay-region-0472,后高句丽,Later Goguryeo,905,911,127.0,38.7
+toolbay-region-0472-period-006,toolbay-region-0472,泰封,Taebong,911,918,127.0,38.7
+toolbay-region-0472-period-007,toolbay-region-0472,高丽(王氏),Goryeo,918,936,127.0,38.7
+toolbay-region-0472-period-008,toolbay-region-0472,高丽(王氏),Goryeo,936,1170,126.0,39.0
+toolbay-region-0472-period-009,toolbay-region-0472,高丽(武臣政権),Goryeo(Military regime),1170,1270,126.0,39.0
+toolbay-region-0472-period-010,toolbay-region-0472,高丽(王氏),Goryeo,1270,1392,126.0,39.0
+toolbay-region-0473-period-003,toolbay-region-0473,(刘隠),(Liu Yin),905,917,109.0,23.0
+toolbay-region-0473-period-004,toolbay-region-0473,南汉,Southern Han,917,971,109.0,23.0
+toolbay-region-0474-period-003,toolbay-region-0474,大越（吴朝）,Dai Viet (Ngo dynasty),939,968,104.7,19.5
+toolbay-region-0474-period-004,toolbay-region-0474,大越,Dai Viet,968,970,104.7,19.5
+toolbay-region-0474-period-005,toolbay-region-0474,大越（吴朝）,Dai Viet (Dinh dynasty),970,980,104.7,19.5
+toolbay-region-0474-period-006,toolbay-region-0474,大越（前黎朝）,Dai Viet (Former Le dynasty),980,1010,104.7,19.5
+toolbay-region-0474-period-007,toolbay-region-0474,大越（李朝）,Dai Viet (Ly dynasty),1010,1225,104.7,19.5
+toolbay-region-0474-period-008,toolbay-region-0474,大越（陈朝）,Dai Viet (Tran dynasty),1225,1400,104.7,19.5
+toolbay-region-0474-period-009,toolbay-region-0474,大越（胡朝）,Dai Viet (Ho dynasty),1400,1406,104.7,19.5
+toolbay-region-0475-period-003,toolbay-region-0475,大越（黎朝）,Dai Viet (Le dynasty),1428,1471,104.7,19.5
+toolbay-region-0475-period-004,toolbay-region-0475,大越（黎朝）,Dai Viet (Le dynasty),1471,1527,106.0,16.5
+toolbay-region-0475-period-005,toolbay-region-0475,大越（莫朝）,Dai Viet (Mac dynasty),1527,1592,106.0,16.5
+toolbay-region-0475-period-006,toolbay-region-0475,郑氏越南,Trinh dynasty,1592,1634,105.1,18.8
+toolbay-region-0475-period-007,toolbay-region-0475,郑氏越南,Trinh dynasty,1634,1707,105.1,20.3
+toolbay-region-0475-period-008,toolbay-region-0475,郑氏越南,Trinh dynasty,1707,1789,105.1,20.3
+toolbay-region-0476-period-003,toolbay-region-0476,莫氏越南,Mac dynasty,1592,1676,105.0,22.3
+toolbay-region-0477-period-003,toolbay-region-0477,荆南,Jingnan,907,948,111.0,31.0
+toolbay-region-0477-period-004,toolbay-region-0477,(荆南),(Jingnan),948,963,111.0,31.0
+toolbay-region-0478-period-003,toolbay-region-0478,党项,Tangut,890,983,100.0,37.0
+toolbay-region-0479-period-003,toolbay-region-0479,女眞,Jurchens,926,1115,132.0,45.0
+toolbay-region-0479-period-004,toolbay-region-0479,金,Jin,1115,1215,126.0,45.0
+toolbay-region-0479-period-005,toolbay-region-0479,金,Jin,1215,1234,114.0,36.0
+toolbay-region-0480-period-003,toolbay-region-0480,大真,Dazhen,1215,1233,129.0,45.5
+toolbay-region-0481-period-003,toolbay-region-0481,东辽,Eastern Liao,1215,1227,123.0,41.0
+toolbay-region-0488-period-003,toolbay-region-0488,黑汗,Kara-Khanid Khanate,940,977,79.0,42.0
+toolbay-region-0488-period-004,toolbay-region-0488,黑汗,Kara-Khanid Khanate,977,1041,70.0,42.0
+toolbay-region-0488-period-005,toolbay-region-0488,东黑汗,Eastern Kara-Khanid Khanate,1041,1132,73.0,42.0
+toolbay-region-0489-period-003,toolbay-region-0489,西黑汗,Western Kara-Khanid Khanate,1041,1089,63.0,42.0
+toolbay-region-0490-period-003,toolbay-region-0490,乃蛮,Naiman,940,1150,88.0,46.0
+toolbay-region-0490-period-004,toolbay-region-0490,乃蛮,Naiman,1150,1204,88.0,46.0
+toolbay-region-0521-period-003,toolbay-region-0521,西夏,Western Xia,1038,1227,99.0,40.0
+toolbay-region-0522-period-003,toolbay-region-0522,波罗摩罗王朝,Paramara dynasty,1050,1187,73.0,26.0
+toolbay-region-0522-period-004,toolbay-region-0522,波罗摩罗王朝,Paramara dynasty,1187,1303,73.0,24.0
+toolbay-region-0525-period-003,toolbay-region-0525,古尔王朝,Ghurids dynasty,1157,1172,66.0,36.0
+toolbay-region-0525-period-004,toolbay-region-0525,古尔王朝,Ghurids dynasty,1172,1190,66.0,34.0
+toolbay-region-0525-period-005,toolbay-region-0525,古尔王朝,Ghurids dynasty,1190,1206,71.0,29.0
+toolbay-region-0525-period-006,toolbay-region-0525,古尔王朝,Ghurids dynasty,1206,1210,68.0,30.0
+toolbay-region-0525-period-007,toolbay-region-0525,古尔王朝,Ghurids dynasty,1210,1215,67.0,34.0
+toolbay-region-0537-period-003,toolbay-region-0537,Seljuk Sultanate of Khorasan,Seljuk Sultanate of Khorasan,1089,1118,60.0,40.0
+toolbay-region-0542-period-003,toolbay-region-0542,卫拉特(瓦刺),Oirats,1100,1211,102.0,54.0
+toolbay-region-0543-period-003,toolbay-region-0543,灭里吉,Merkit,1100,1150,110.0,53.0
+toolbay-region-0543-period-004,toolbay-region-0543,灭里吉,Merkit,1150,1201,110.0,53.0
+toolbay-region-0543-period-005,toolbay-region-0543,灭里吉,Merkit,1201,1204,114.0,54.5
+toolbay-region-0544-period-003,toolbay-region-0544,Kakatiya dynasty,Kakatiya dynasty,1118,1313,84.0,21.0
+toolbay-region-0544-period-004,toolbay-region-0544,Kakatiya dynasty,Kakatiya dynasty,1313,1326,81.0,18.0
+toolbay-region-0545-period-003,toolbay-region-0545,西辽(黑契丹),Kara-Khitan Khanate(Western Liao),1125,1132,80.0,47.0
+toolbay-region-0545-period-004,toolbay-region-0545,西辽(黑契丹),Kara-Khitan Khanate(Western Liao),1132,1211,77.0,42.0
+toolbay-region-0549-period-003,toolbay-region-0549,德里・马木留克王朝,Mamluk Dynasty of Delph,1206,1290,79.0,27.0
+toolbay-region-0549-period-004,toolbay-region-0549,卡尔吉王朝,Khalji dynasty,1290,1303,79.0,27.0
+toolbay-region-0549-period-005,toolbay-region-0549,卡尔吉王朝,Khalji dynasty,1303,1320,76.0,27.0
+toolbay-region-0549-period-006,toolbay-region-0549,图格鲁克王朝,Tughlaq dynasty,1320,1351,76.0,27.0
+toolbay-region-0549-period-007,toolbay-region-0549,图格鲁克王朝,Tughlaq dynasty,1351,1413,70.0,29.0
+toolbay-region-0556-period-003,toolbay-region-0556,帖木儿帝国,Timurid Empire,1370,1388,64.0,40.0
+toolbay-region-0556-period-004,toolbay-region-0556,帖木儿帝国,Timurid Empire,1388,1469,58.0,36.4
+toolbay-region-0556-period-005,toolbay-region-0556,帖木儿帝国(撒马尔罕),Timurid Empire(Samarkand),1469,1500,60.0,40.0
+toolbay-region-0557-period-003,toolbay-region-0557,帖木儿帝国(赫拉特),Timurid Empire(Herat),1469,1507,67.0,36.0
+toolbay-region-0558-period-003,toolbay-region-0558,汶莱,Brunei,1405,1888,115.0,5.0
+toolbay-region-0558-period-004,toolbay-region-0558,汶莱（英保护领）,British protectorate of Brunei,1888,1906,115.0,5.0
+toolbay-region-0558-period-005,toolbay-region-0558,汶莱（英保护领）,British protectorate of Brunei,1906,1942,115.0,5.0
+toolbay-region-0558-period-006,toolbay-region-0558,日治汶莱,Brunei(Japan),1942,1945,115.0,5.0
+toolbay-region-0558-period-007,toolbay-region-0558,汶莱(英),Brunei(UK),1945,1959,115.0,5.0
+toolbay-region-0558-period-008,toolbay-region-0558,英自治领的汶莱,British Autonomy of Brunei,1959,1984,115.0,5.0
+toolbay-region-0558-period-009,toolbay-region-0558,汶莱和平之国,Brunei Darussalam,1984,9999,115.0,5.0
+toolbay-region-0559-period-003,toolbay-region-0559,砂拉越王国,Kingdom of Sarawak,1841,1942,112.0,2.0
+toolbay-region-0561-period-003,toolbay-region-0561,北汉,Northern Han,951,979,112.0,36.5
+toolbay-region-0562-period-003,toolbay-region-0562,伽色尼王朝,Ghaznavid Empire,977,999,66.0,34.0
+toolbay-region-0562-period-004,toolbay-region-0562,伽色尼王朝,Ghaznavid Empire,999,1050,61.0,34.0
+toolbay-region-0562-period-005,toolbay-region-0562,伽色尼王朝,Ghaznavid Empire,1050,1172,65.0,32.0
+toolbay-region-0562-period-006,toolbay-region-0562,伽色尼王朝,Ghaznavid Empire,1172,1187,70.0,30.0
+toolbay-region-0572-period-003,toolbay-region-0572,西那王朝,Sena dynasty,1070,1230,90.5,24.0
+toolbay-region-0574-period-003,toolbay-region-0574,喝萨拉王朝,Hoysala Empire,1126,1310,75.0,15.0
+toolbay-region-0575-period-003,toolbay-region-0575,喝萨拉王朝,Hoysala Empire,1313,1342,75.0,15.0
+toolbay-region-0580-period-003,toolbay-region-0580,远东共和国,Far Eastern Republic,1920,1922,133.0,53.0
+toolbay-region-0582-period-003,toolbay-region-0582,耶陀婆王朝,Yadava dynasty,1185,1190,74.0,21.5
+toolbay-region-0582-period-004,toolbay-region-0582,耶陀婆王朝,Yadava dynasty,1190,1307,74.0,20.5
+toolbay-region-0582-period-005,toolbay-region-0582,(耶陀婆王朝),(Yadava dynasty),1307,1317,74.0,20.5
+toolbay-region-0584-period-003,toolbay-region-0584,察合台汗国,Chagatai Khanate,1225,1342,70.0,42.0
+toolbay-region-0584-period-004,toolbay-region-0584,东察合台汗国,Eastern Chagatai Khanate,1342,1360,73.5,44.0
+toolbay-region-0584-period-005,toolbay-region-0584,蒙兀儿斯坦汗国,Moghulistan Khanate,1360,1450,70.0,42.0
+toolbay-region-0584-period-006,toolbay-region-0584,蒙兀儿斯坦汗国,Moghulistan Khanate,1450,1514,76.0,39.5
+toolbay-region-0584-period-007,toolbay-region-0584,叶尔羌汗国,Khanate of Yarkand,1514,1680,76.0,39.5
+toolbay-region-0585-period-003,toolbay-region-0585,若开,Arakan,1287,1826,93.0,20.0
+toolbay-region-0586-period-003,toolbay-region-0586,西察合台汗国,Western Chagatai Khanate,1342,1360,67.0,40.0
+toolbay-region-0594-period-003,toolbay-region-0594,勃固,Pegu,1287,1539,95.0,18.0
+toolbay-region-0602-period-003,toolbay-region-0602,蒙古,Mongol,1100,1150,114.0,54.0
+toolbay-region-0602-period-004,toolbay-region-0602,蒙古,Mongol,1150,1165,112.0,49.0
+toolbay-region-0602-period-005,toolbay-region-0602,Kiyad,Kiyad,1165,1170,112.0,49.0
+toolbay-region-0603-period-003,toolbay-region-0603,蒙古,Mongol,1204,1206,107.0,49.0
+toolbay-region-0603-period-004,toolbay-region-0603,蒙古帝国,Mongol Empire,1206,1271,107.0,49.0
+toolbay-region-0603-period-005,toolbay-region-0603,元,Yuan,1271,1368,107.0,39.0
+toolbay-region-0603-period-006,toolbay-region-0603,北元,Northern Yuan,1368,1403,107.0,49.0
+toolbay-region-0603-period-007,toolbay-region-0603,鞑靼,Tatars,1403,1634,107.0,49.0
+toolbay-region-0604-period-003,toolbay-region-0604,鞑靼,Tatars,1125,1201,118.0,46.0
+toolbay-region-0605-period-003,toolbay-region-0605,鞑靼,Tatars,1487,1634,107.0,49.0
+toolbay-region-0606-period-003,toolbay-region-0606,潘地亚王朝,Pandyan kingdom,1190,1345,77.0,9.4
+toolbay-region-0608-period-003,toolbay-region-0608,Jaffna Kingdom,Jaffna Kingdom,1215,1450,80.2,9.6
+toolbay-region-0609-period-003,toolbay-region-0609,Jaffna Kingdom,Jaffna Kingdom,1467,1619,80.2,9.6
+toolbay-region-0613-period-003,toolbay-region-0613,毗奢耶那伽罗王朝,Vijayanagara Empire,1336,1345,76.0,12.7
+toolbay-region-0613-period-004,toolbay-region-0613,毗奢耶那伽罗王朝,Vijayanagara Empire,1345,1640,76.0,12.0
+toolbay-region-0613-period-005,toolbay-region-0613,毗奢耶那伽罗王朝,Vijayanagara Empire,1640,1649,76.5,10.0
+toolbay-region-0614-period-003,toolbay-region-0614,素可泰王国,Sukhothai Kingdom,1238,1279,100.0,16.0
+toolbay-region-0614-period-004,toolbay-region-0614,素可泰王国,Sukhothai Kingdom,1279,1354,100.0,16.0
+toolbay-region-0614-period-005,toolbay-region-0614,素可泰王国,Sukhothai Kingdom,1354,1438,100.0,16.0
+toolbay-region-0616-period-003,toolbay-region-0616,巴赫曼尼苏丹国,Bahmani Sultanate,1336,1482,76.0,18.0
+toolbay-region-0616-period-004,toolbay-region-0616,阿迪勒・沙阿王朝,Adil Shahi dynasty,1482,1649,74.0,19.0
+toolbay-region-0616-period-005,toolbay-region-0616,阿迪勒・沙阿王朝,Adil Shahi dynasty,1649,1686,78.0,15.5
+toolbay-region-0617-period-003,toolbay-region-0617,Qutb Shahi dynasty,Qutb Shahi dynasty,1518,1687,79.0,18.0
+toolbay-region-0618-period-003,toolbay-region-0618,暹罗（大城王朝）,Kingdom of Siam(Ayutthaya dynasty),1350,1438,99.0,12.0
+toolbay-region-0618-period-004,toolbay-region-0618,暹罗（大城王朝）,Kingdom of Siam(Ayutthaya dynasty),1438,1656,99.0,13.5
+toolbay-region-0618-period-005,toolbay-region-0618,暹罗（大城王朝）,Kingdom of Siam(Ayutthaya dynasty),1656,1767,99.0,13.5
+toolbay-region-0618-period-006,toolbay-region-0618,暹罗（呑武里王朝）,Kingdom of Siam(Thonburi dynasty),1767,1782,99.0,13.5
+toolbay-region-0618-period-007,toolbay-region-0618,暹罗（却克里王朝）,Kingdom of Siam(Chakri dynasty),1782,1817,99.0,13.5
+toolbay-region-0618-period-008,toolbay-region-0618,暹罗（却克里王朝）,Kingdom of Siam(Chakri dynasty),1817,1855,99.0,13.5
+toolbay-region-0618-period-009,toolbay-region-0618,暹罗（却克里王朝）,Kingdom of Siam(Chakri dynasty),1855,1916,99.0,13.5
+toolbay-region-0618-period-010,toolbay-region-0618,暹罗（却克里王朝）,Kingdom of Siam(Chakri dynasty),1916,1917,99.0,13.5
+toolbay-region-0618-period-011,toolbay-region-0618,暹罗（却克里王朝）,Kingdom of Siam(Chakri dynasty),1917,1949,99.0,13.5
+toolbay-region-0618-period-012,toolbay-region-0618,泰王国,Kingdom of Thailand,1949,9999,99.0,13.5
+toolbay-region-0619-period-003,toolbay-region-0619,孟加拉,Bengal,1351,1540,87.0,25.0
+toolbay-region-0620-period-003,toolbay-region-0620,Gondwana,Gondwana,1351,1660,80.0,21.0
+toolbay-region-0621-period-003,toolbay-region-0621,西藏,Tibet(Phagmodrupa),1358,1434,85.0,33.0
+toolbay-region-0621-period-004,toolbay-region-0621,西藏,Tibet(Rinpungpa),1434,1465,85.0,33.0
+toolbay-region-0621-period-005,toolbay-region-0621,西藏,Tibet(Tsangpa),1465,1642,85.0,33.0
+toolbay-region-0621-period-006,toolbay-region-0621,西藏（和硕特汗政权）,Tibet(Güshi Khanate),1642,1724,85.0,33.0
+toolbay-region-0621-period-007,toolbay-region-0621,(西藏),(Tibet),1724,1912,85.0,33.0
+toolbay-region-0622-period-003,toolbay-region-0622,西藏,Tibet,1912,1920,85.0,33.0
+toolbay-region-0622-period-004,toolbay-region-0622,西藏,Tibet,1920,1925,85.0,33.0
+toolbay-region-0622-period-005,toolbay-region-0622,西藏,Tibet,1925,1950,85.0,33.0
+toolbay-region-0623-period-003,toolbay-region-0623,天完,Tianwan,1351,1360,111.5,29.7
+toolbay-region-0623-period-004,toolbay-region-0623,川蜀,Chuan Shu,1360,1363,108.0,28.0
+toolbay-region-0623-period-005,toolbay-region-0623,夏,Xia,1363,1371,108.0,28.0
+toolbay-region-0624-period-003,toolbay-region-0624,周,Zhou,1354,1367,116.5,34.0
+toolbay-region-0625-period-003,toolbay-region-0625,(陈友谅),(Chen You-liang),1358,1360,116.0,29.0
+toolbay-region-0625-period-004,toolbay-region-0625,汉,Han,1360,1364,114.0,29.0
+toolbay-region-0626-period-003,toolbay-region-0626,宋,Song,1355,1358,114.0,32.4
+toolbay-region-0627-period-003,toolbay-region-0627,(朱元璋),(Zhu Yuan-zhang),1358,1364,118.0,31.0
+toolbay-region-0627-period-004,toolbay-region-0627,(朱元璋),(Zhu Yuan-zhang),1354,1368,114.0,28.0
+toolbay-region-0627-period-005,toolbay-region-0627,明,Ming,1368,1644,114.0,34.5
+toolbay-region-0627-period-006,toolbay-region-0627,顺,Shun,1644,1645,114.0,34.5
+toolbay-region-0628-period-003,toolbay-region-0628,(哱拜之乱),(Bobai Rebellion),1592,1593,108.0,38.0
+toolbay-region-0629-period-003,toolbay-region-0629,(杨应龙之乱),(Yang Ying-long's Rebellion),1592,1599,108.0,28.0
+toolbay-region-0635-period-003,toolbay-region-0635,朝鲜国（李朝）,Joseon dynasty,1392,1592,126.0,39.0
+toolbay-region-0635-period-004,toolbay-region-0635,朝鲜国（李朝）,Joseon dynasty,1592,1593,126.0,39.3
+toolbay-region-0636-period-003,toolbay-region-0636,朝鲜国（李朝）,Joseon dynasty,1596,1882,126.0,39.0
+toolbay-region-0636-period-004,toolbay-region-0636,朝鲜国（李朝）,Joseon dynasty,1882,1897,126.0,39.0
+toolbay-region-0636-period-005,toolbay-region-0636,大韩帝国,Korean Empire,1897,1910,126.0,39.0
+toolbay-region-0636-period-006,toolbay-region-0636,日属朝鲜,Korea(Japan),1910,1945,126.0,39.0
+toolbay-region-0636-period-007,toolbay-region-0636,南朝鲜（美军政期）,South Korea(U.S. Millitary Governance),1945,1948,128.0,37.0
+toolbay-region-0636-period-008,toolbay-region-0636,大韩民国,Republic of Korea,1948,1950,128.0,37.0
+toolbay-region-0636-period-009,toolbay-region-0636,大韩民国,Republic of Korea,1950,1951,128.5,36.0
+toolbay-region-0636-period-010,toolbay-region-0636,大韩民国,Republic of Korea,1951,9999,128.0,37.0
+toolbay-region-0637-period-003,toolbay-region-0637,(明军),(Chinese Army),1593,1594,126.0,39.0
+toolbay-region-0638-period-003,toolbay-region-0638,(东学党之乱),(Donghak Rebellion),1894,1895,127.0,36.0
+toolbay-region-0639-period-003,toolbay-region-0639,北山王国,Hokuzan Kingdom,1322,1416,128.8,27.2
+toolbay-region-0640-period-003,toolbay-region-0640,南山王国,Nanzan Kingdom,1322,1429,127.7,25.8
+toolbay-region-0641-period-003,toolbay-region-0641,中山王国,Chuzan Kingdom,1314,1429,128.3,26.5
+toolbay-region-0641-period-004,toolbay-region-0641,琉球国（第一尚氏）,Ryukyu Kingdom(First Sho dynasty),1429,1469,129.0,27.0
+toolbay-region-0641-period-005,toolbay-region-0641,琉球国（第二尚氏）,Ryukyu Kingdom(Second Sho dynasty),1469,1872,129.0,27.0
+toolbay-region-0641-period-006,toolbay-region-0641,琉球藩,Ryukyu han,1872,1879,129.0,27.0
+toolbay-region-0643-period-003,toolbay-region-0643,南掌王国,Lanexang Kingdom,1354,1707,101.5,17.8
+toolbay-region-0646-period-003,toolbay-region-0646,阿瓦,Ava,1364,1486,94.5,22.0
+toolbay-region-0646-period-004,toolbay-region-0646,东吁王朝,Taungoo dynasty,1486,1752,94.5,22.0
+toolbay-region-0649-period-003,toolbay-region-0649,回纥,Uyghur,1387,1634,84.0,41.4
+toolbay-region-0649-period-004,toolbay-region-0649,准噶尔人,Dzungar tribe,1634,1680,84.0,41.4
+toolbay-region-0649-period-005,toolbay-region-0649,准噶尔人,Dzungar tribe,1680,1756,79.0,42.0
+toolbay-region-0650-period-003,toolbay-region-0650,Jaunpur Sultanate,Jaunpur Sultanate,1394,1479,80.0,27.0
+toolbay-region-0653-period-003,toolbay-region-0653,卫拉特(瓦刺),Oirats,1403,1206,83.0,47.0
+toolbay-region-0658-period-003,toolbay-region-0658,満刺加王朝,Malacca Sultanate,1402,1511,103.0,2.0
+toolbay-region-0658-period-004,toolbay-region-0658,葡属満刺加,Portuguese Malacca,1511,1580,101.3,3.8
+toolbay-region-0658-period-005,toolbay-region-0658,西属満刺加,Spanish Malacca,1580,1640,101.3,3.8
+toolbay-region-0658-period-006,toolbay-region-0658,葡属満刺加,Portuguese Malacca,1640,1641,101.3,3.8
+toolbay-region-0658-period-007,toolbay-region-0658,兰属満刺加,Dutch Malacca,1641,1795,101.3,3.8
+toolbay-region-0658-period-008,toolbay-region-0658,英属満刺加,British Malacca,1795,1801,101.3,3.8
+toolbay-region-0658-period-009,toolbay-region-0658,英属満刺加,British Malacca,1801,1818,101.3,3.8
+toolbay-region-0658-period-010,toolbay-region-0658,兰属満刺加,Dutch Malacca,1818,1824,101.3,3.8
+toolbay-region-0658-period-011,toolbay-region-0658,英属満刺加,British Malacca,1824,1826,101.3,3.8
+toolbay-region-0658-period-012,toolbay-region-0658,海峡殖民地(英),Straits Settlements(UK),1826,1942,101.3,3.8
+toolbay-region-0658-period-013,toolbay-region-0658,日属马来,Malaya(Japan),1942,1945,101.3,3.8
+toolbay-region-0658-period-014,toolbay-region-0658,英属马来,Malaya(UK),1945,1947,101.3,3.8
+toolbay-region-0658-period-015,toolbay-region-0658,马来联邦,Federation of Malaya,1947,1950,101.3,3.8
+toolbay-region-0658-period-016,toolbay-region-0658,马来联邦,Federation of Malaya,1950,1957,101.3,3.8
+toolbay-region-0658-period-017,toolbay-region-0658,马来联邦,Federation of Malaya,1957,1963,101.3,3.8
+toolbay-region-0658-period-018,toolbay-region-0658,马来西亚,Malaysia,1963,9999,108.0,3.8
+toolbay-region-0659-period-003,toolbay-region-0659,Sultanate of Maguindanao,Sultanate of Maguindanao,1400,1800,125.0,7.7
+toolbay-region-0662-period-003,toolbay-region-0662,科提王国,Kingdom of Kotte,1412,1594,79.5,8.0
+toolbay-region-0662-period-004,toolbay-region-0662,西属锡兰,Spanish Ceylon,1594,1619,79.5,8.0
+toolbay-region-0662-period-005,toolbay-region-0662,西属锡兰,Spanish Ceylon,1619,1640,79.5,8.5
+toolbay-region-0662-period-006,toolbay-region-0662,葡属锡兰,Poltuguese Ceylon,1640,1656,79.5,8.5
+toolbay-region-0662-period-007,toolbay-region-0662,兰属锡兰,Dutch Ceylon,1656,1796,79.5,8.5
+toolbay-region-0663-period-003,toolbay-region-0663,赛义德王朝,Sayyid dynasty,1414,1451,74.0,32.0
+toolbay-region-0663-period-004,toolbay-region-0663,洛迪王朝,Lodhi dynasty,1451,1526,74.0,32.0
+toolbay-region-0669-period-003,toolbay-region-0669,昔班尼王朝,Shaybanid Dynasty,1428,1468,65.0,51.0
+toolbay-region-0670-period-003,toolbay-region-0670,昔班尼王朝,Shaybanid Dynasty,1500,1599,65.0,51.0
+toolbay-region-0672-period-003,toolbay-region-0672,西伯利亚汗国,Khanate of Sibir,1440,1598,75.0,62.0
+toolbay-region-0676-period-003,toolbay-region-0676,苏禄苏丹国,Sulu Sultanate,1450,1850,121.0,6.0
+toolbay-region-0676-period-004,toolbay-region-0676,苏禄苏丹国,Sulu Sultanate,1850,1900,121.0,6.0
+toolbay-region-0677-period-003,toolbay-region-0677,康提王国,Kingdom of Kandy,1469,1796,81.6,7.6
+toolbay-region-0677-period-004,toolbay-region-0677,英殖民地的锡兰,British crown colony of Ceylon,1796,1801,81.0,7.6
+toolbay-region-0677-period-005,toolbay-region-0677,英殖民地的锡兰,British crown colony of Ceylon,1801,1875,81.0,7.6
+toolbay-region-0677-period-006,toolbay-region-0677,英殖民地的锡兰,British crown colony of Ceylon,1875,1948,81.0,7.6
+toolbay-region-0677-period-007,toolbay-region-0677,锡兰,Commonwealth of Ceylon,1948,1951,81.0,7.6
+toolbay-region-0677-period-008,toolbay-region-0677,锡兰,Commonwealth of Ceylon,1951,1972,81.0,7.6
+toolbay-region-0677-period-009,toolbay-region-0677,斯里兰卡共和国,Republic of Sri Lanka,1972,1978,81.0,7.6
+toolbay-region-0677-period-010,toolbay-region-0677,斯里兰卡民主社会主义共和国,Democratic Socialist Republic of Sri Lanka,1978,9999,81.0,7.6
+toolbay-region-0680-period-003,toolbay-region-0680,亚乔苏丹国,Aceh Sultanate,1496,1903,96.0,4.0
+toolbay-region-0692-period-003,toolbay-region-0692,布哈拉汗国,Khanate of Bukhara,1500,1781,69.0,43.5
+toolbay-region-0692-period-004,toolbay-region-0692,布哈拉汗国,Khanate of Bukhara,1781,1785,66.5,41.5
+toolbay-region-0692-period-005,toolbay-region-0692,布哈拉酋长国,Emirate of Bukhara,1785,1876,66.5,41.5
+toolbay-region-0692-period-006,toolbay-region-0692,布哈拉酋长国,Emirate of Bukhara,1876,1900,66.5,40.3
+toolbay-region-0692-period-007,toolbay-region-0692,布哈拉酋长国,Emirate of Bukhara,1900,1920,66.5,40.3
+toolbay-region-0692-period-008,toolbay-region-0692,布哈拉人民苏维埃共和国,Bukharan People's Soviet Republic,1920,1923,66.5,40.3
+toolbay-region-0692-period-009,toolbay-region-0692,布哈拉人民苏维埃共和国,Bukharan People's Soviet Republic,1921,1923,66.5,40.3
+toolbay-region-0692-period-010,toolbay-region-0692,布哈拉苏维埃社会主义共和国,Bukharan Soviet Socialist Republic,1923,1924,66.5,40.3
+toolbay-region-0693-period-003,toolbay-region-0693,乌尔根奇汗国,Khanate of Urgench,1511,1619,62.0,42.5
+toolbay-region-0693-period-004,toolbay-region-0693,希瓦汗国,Khanate of Khiva,1619,1781,62.0,42.5
+toolbay-region-0693-period-005,toolbay-region-0693,希瓦汗国,Khanate of Khiva,1781,1873,59.0,42.0
+toolbay-region-0693-period-006,toolbay-region-0693,希瓦汗国,Khanate of Khiva,1873,1918,59.0,42.0
+toolbay-region-0693-period-007,toolbay-region-0693,希瓦汗国,Khanate of Khiva,1918,1920,59.0,42.0
+toolbay-region-0693-period-008,toolbay-region-0693,花刺子模人民苏维埃共和国,Khorezm People's Soviet Republic,1920,1924,59.0,42.0
+toolbay-region-0695-period-003,toolbay-region-0695,柔佛苏丹国,Johor Sultanate,1528,1819,104.0,1.0
+toolbay-region-0699-period-003,toolbay-region-0699,葡属果阿,Poltuguese Goa,1510,1580,73.8,15.8
+toolbay-region-0699-period-004,toolbay-region-0699,西属果阿,Spanish Goa,1580,1640,73.8,15.8
+toolbay-region-0699-period-005,toolbay-region-0699,葡属果阿,Poltuguese Goa,1640,1799,73.8,15.8
+toolbay-region-0699-period-006,toolbay-region-0699,英属果阿,British Goa,1799,1801,73.8,15.8
+toolbay-region-0699-period-007,toolbay-region-0699,英属果阿,British Goa,1801,1813,73.8,15.8
+toolbay-region-0699-period-008,toolbay-region-0699,葡属果阿,Poltuguese Goa,1813,1816,73.8,15.8
+toolbay-region-0699-period-009,toolbay-region-0699,葡属果阿,Poltuguese Goa,1816,1830,73.8,15.8
+toolbay-region-0699-period-010,toolbay-region-0699,葡属果阿,Poltuguese Goa,1830,1910,73.8,15.8
+toolbay-region-0699-period-011,toolbay-region-0699,葡属果阿,Poltuguese Goa,1910,1991,73.8,15.8
+toolbay-region-0700-period-003,toolbay-region-0700,北太年王国,Patani Kingdom,1512,1771,102.0,6.0
+toolbay-region-0705-period-003,toolbay-region-0705,莫卧儿帝国,Mughal Empire,1526,1540,77.0,29.0
+toolbay-region-0705-period-004,toolbay-region-0705,Suri dynasty,Suri dynasty,1540,1555,77.0,29.0
+toolbay-region-0706-period-003,toolbay-region-0706,莫卧儿帝国,Mughal Empire,1545,1555,70.0,34.0
+toolbay-region-0706-period-004,toolbay-region-0706,莫卧儿帝国,Mughal Empire,1555,1700,77.0,26.0
+toolbay-region-0706-period-005,toolbay-region-0706,莫卧儿帝国,Mughal Empire,1700,1724,77.0,26.0
+toolbay-region-0706-period-006,toolbay-region-0706,莫卧儿帝国,Mughal Empire,1724,1738,72.0,29.0
+toolbay-region-0706-period-007,toolbay-region-0706,莫卧儿帝国,Mughal Empire,1738,1857,77.0,29.0
+toolbay-region-0706-period-008,toolbay-region-0706,印度叛变,The Indian Rebellion,1857,1858,78.0,26.0
+toolbay-region-0706-period-009,toolbay-region-0706,印度叛变,The Indian Rebellion,1858,1859,80.0,26.8
+toolbay-region-0713-period-003,toolbay-region-0713,西属菲律宾,Spanish Philippines,1565,1701,125.0,12.0
+toolbay-region-0713-period-004,toolbay-region-0713,西属菲律宾,Spanish Philippines,1701,1762,125.0,12.0
+toolbay-region-0713-period-005,toolbay-region-0713,英属菲律宾,British Philippines,1762,1764,125.0,12.0
+toolbay-region-0713-period-006,toolbay-region-0713,西属菲律宾,Spanish Philippines,1764,1898,125.0,12.0
+toolbay-region-0713-period-007,toolbay-region-0713,菲律宾共和国,Republic of the Philippines,1898,1900,125.0,12.0
+toolbay-region-0713-period-008,toolbay-region-0713,美属菲律宾,United States territory of Philippines,1901,1935,125.0,12.0
+toolbay-region-0713-period-009,toolbay-region-0713,菲律宾自治领,Commonwealth of the Philippines,1935,1942,125.0,12.0
+toolbay-region-0713-period-010,toolbay-region-0713,日治菲律宾,Philippines(Japan),1942,1945,125.0,12.0
+toolbay-region-0713-period-011,toolbay-region-0713,菲律宾自治领,Commonwealth of the Philippines,1945,1946,125.0,12.0
+toolbay-region-0713-period-012,toolbay-region-0713,菲律宾共和国,Republic of the Philippines,1946,9999,125.0,12.0
+toolbay-region-0727-period-003,toolbay-region-0727,兰属印度尼西亚,Dutch Indonesia,1946,1949,120.0,0.0
+toolbay-region-0727-period-004,toolbay-region-0727,兰属新几内亚,Dutch New Guinea,1949,1961,138.0,-5.0
+toolbay-region-0727-period-005,toolbay-region-0727,兰属西巴布亚,Dutch West Papua,1961,1962,138.0,-5.0
+toolbay-region-0727-period-006,toolbay-region-0727,西伊里安(联合国),West Irian(United Nations),1962,1963,138.0,-5.0
+toolbay-region-0728-period-003,toolbay-region-0728,女真,Jurchens,1500,1616,129.0,45.0
+toolbay-region-0728-period-004,toolbay-region-0728,后金,Later Jin,1616,1636,125.0,47.0
+toolbay-region-0728-period-005,toolbay-region-0728,清,Qing,1636,1645,125.0,47.0
+toolbay-region-0728-period-006,toolbay-region-0728,清,Qing,1645,1872,114.0,34.5
+toolbay-region-0728-period-007,toolbay-region-0728,清,Qing,1862,1890,114.0,34.5
+toolbay-region-0728-period-008,toolbay-region-0728,清,Qing,1890,1912,114.0,34.5
+toolbay-region-0729-period-003,toolbay-region-0729,(吴三桂),(Wu San-gui),1645,1678,101.0,26.0
+toolbay-region-0729-period-004,toolbay-region-0729,周,Zhou,1678,1681,101.0,26.0
+toolbay-region-0730-period-003,toolbay-region-0730,(尚之信),(Shang Zhi-xin),1645,1674,113.0,23.5
+toolbay-region-0731-period-003,toolbay-region-0731,(耿精忠),(Geng Jing-Zhong),1645,1674,117.5,25.5
+toolbay-region-0732-period-003,toolbay-region-0732,太平天国,Taiping Heavenly Kingdom,1951,1964,116.0,27.5
+toolbay-region-0733-period-003,toolbay-region-0733,大成,Dacheng,1855,1864,108.0,24.2
+toolbay-region-0734-period-003,toolbay-region-0734,回民蜂起,Panthay Rebellion,1856,1873,101.0,25.0
+toolbay-region-0740-period-003,toolbay-region-0740,迈索尔王国,Kingdom of Mysore,1640,1799,75.0,13.0
+toolbay-region-0753-period-003,toolbay-region-0753,(马拉塔帝国),(Empire of Maratha),1674,1720,81.0,21.0
+toolbay-region-0753-period-004,toolbay-region-0753,马拉塔帝国,Empire of Maratha,1720,1738,81.0,21.0
+toolbay-region-0753-period-005,toolbay-region-0753,马拉塔帝国,Empire of Maratha,1738,1804,77.0,23.0
+toolbay-region-0756-period-003,toolbay-region-0756,不丹,Bhutan,1616,1907,90.0,27.0
+toolbay-region-0756-period-004,toolbay-region-0756,不丹王国,Kingdom of Bhutan,1907,1949,90.0,27.0
+toolbay-region-0756-period-005,toolbay-region-0756,不丹王国,Kingdom of Bhutan,1949,1956,90.0,27.0
+toolbay-region-0756-period-006,toolbay-region-0756,不丹王国,Kingdom of Bhutan,1956,1969,90.0,27.0
+toolbay-region-0756-period-007,toolbay-region-0756,不丹王国,Kingdom of Bhutan,1969,9999,90.0,27.0
+toolbay-region-0766-period-003,toolbay-region-0766,锡金王国,Kingdom of Sikkim,1642,1861,87.0,27.4
+toolbay-region-0766-period-004,toolbay-region-0766,英保护领的锡金,British Protectorate of Sikkim,1861,1877,87.0,27.4
+toolbay-region-0766-period-005,toolbay-region-0766,英保护领的锡金,British Protectorate of Sikkim,1877,1914,87.0,27.4
+toolbay-region-0766-period-006,toolbay-region-0766,英保护领的锡金,British Protectorate of Sikkim,1914,1947,87.0,27.4
+toolbay-region-0766-period-007,toolbay-region-0766,锡金王国,Kingdom of Sikkim,1947,1967,87.0,27.4
+toolbay-region-0766-period-008,toolbay-region-0766,锡金王国,Kingdom of Sikkim,1967,1975,87.0,27.4
+toolbay-region-0767-period-003,toolbay-region-0767,兰属台湾,Dutch Formosa,1624,1662,120.0,23.0
+toolbay-region-0767-period-004,toolbay-region-0767,郑氏王朝,Kingdom of Tungning,1662,1683,120.0,23.0
+toolbay-region-0768-period-003,toolbay-region-0768,西属台湾,Spanish Formosa,1626,1642,121.5,25.0
+toolbay-region-0771-period-003,toolbay-region-0771,西属马利安纳群岛,Spanish Mariana Islands,1668,1701,145.0,14.0
+toolbay-region-0771-period-004,toolbay-region-0771,西属马利安纳群岛,Spanish Mariana Islands,1701,1898,145.0,14.0
+toolbay-region-0771-period-005,toolbay-region-0771,美属关岛,U.S territory of Guam,1898,1941,145.0,14.0
+toolbay-region-0771-period-006,toolbay-region-0771,日属大宫岛,Omiya jima(Japan),1941,1944,145.0,14.0
+toolbay-region-0771-period-007,toolbay-region-0771,美属关岛,U.S territory of Guam,1944,1948,145.0,14.0
+toolbay-region-0771-period-008,toolbay-region-0771,美属关岛,U.S territory of Guam,1948,1960,145.0,14.0
+toolbay-region-0771-period-009,toolbay-region-0771,美属关岛,U.S territory of Guam,1960,9999,145.0,14.0
+toolbay-region-0772-period-003,toolbay-region-0772,法属本地治里,French Pondicherry,1674,1699,80.0,12.7
+toolbay-region-0772-period-004,toolbay-region-0772,兰属本地治里,Dutch Pondicherry,1693,1699,80.0,12.7
+toolbay-region-0772-period-005,toolbay-region-0772,法属本地治里,French Pondicherry,1699,1761,80.0,12.7
+toolbay-region-0772-period-006,toolbay-region-0772,英属本地治里,British Pondicherry,1761,1765,80.0,12.7
+toolbay-region-0772-period-007,toolbay-region-0772,法属本地治里,French Pondicherry,1765,1790,80.0,12.7
+toolbay-region-0772-period-008,toolbay-region-0772,法属本地治里,French Pondicherry,1790,1793,80.0,12.7
+toolbay-region-0772-period-009,toolbay-region-0772,英属本地治里,British Pondicherry,1793,1801,80.0,12.7
+toolbay-region-0772-period-010,toolbay-region-0772,英属本地治里,British Pondicherry,1801,1802,80.0,12.7
+toolbay-region-0772-period-011,toolbay-region-0772,法属本地治里,French Pondicherry,1802,1803,80.0,12.7
+toolbay-region-0772-period-012,toolbay-region-0772,英属本地治里,British Pondicherry,1803,1816,80.0,12.7
+toolbay-region-0772-period-013,toolbay-region-0772,法属本地治里,French Pondicherry,1816,1848,80.0,12.7
+toolbay-region-0772-period-014,toolbay-region-0772,法属本地治里,French Pondicherry,1848,1849,80.0,12.7
+toolbay-region-0772-period-015,toolbay-region-0772,法属本地治里,French Pondicherry,1849,1954,80.0,12.7
+toolbay-region-0773-period-003,toolbay-region-0773,浩罕汗国,Khanate of Kokand,1709,1876,73.0,40.0
+toolbay-region-0773-period-004,toolbay-region-0773,土耳其斯坦总督区,Russian General-goverment of Turkestan,1876,1917,71.0,42.0
+toolbay-region-0773-period-005,toolbay-region-0773,浩罕自治国,Autonomy of Kokand,1917,1918,72.0,42.0
+toolbay-region-0775-period-003,toolbay-region-0775,海得拉巴国,Hyderabad State,1724,1799,78.0,18.0
+toolbay-region-0775-period-004,toolbay-region-0775,(海得拉巴国),(Hyderabad State),1799,1947,78.0,18.0
+toolbay-region-0775-period-005,toolbay-region-0775,海得拉巴国,Hyderabad State,1947,1948,78.0,18.0
+toolbay-region-0791-period-003,toolbay-region-0791,汉达基王朝,Hotaki dynasty,1709,1729,63.0,34.0
+toolbay-region-0792-period-003,toolbay-region-0792,阿富汗（杜兰尼王朝）,Afghanistan(Durrani dynasty),1747,1834,63.0,34.0
+toolbay-region-0792-period-004,toolbay-region-0792,阿富汗酋长国,Emirate of Afghanistan,1834,1880,63.0,34.0
+toolbay-region-0792-period-005,toolbay-region-0792,英属阿富汗,British Afghanistan,1880,1901,63.0,34.0
+toolbay-region-0792-period-006,toolbay-region-0792,英属阿富汗,British Afghanistan,1901,1919,63.0,34.0
+toolbay-region-0792-period-007,toolbay-region-0792,阿富汗酋长国,Emirate of Afghanistan,1919,1926,63.0,34.0
+toolbay-region-0792-period-008,toolbay-region-0792,阿富汗王国,Kingdom of Afghanistan,1926,1928,63.0,34.0
+toolbay-region-0792-period-009,toolbay-region-0792,阿富汗王国,Kingdom of Afghanistan,1928,1930,63.0,34.0
+toolbay-region-0792-period-010,toolbay-region-0792,阿富汗王国,Kingdom of Afghanistan,1930,1973,63.0,34.0
+toolbay-region-0792-period-011,toolbay-region-0792,阿富汗共和国,Republic of Afghanistan,1973,1978,63.0,34.0
+toolbay-region-0792-period-012,toolbay-region-0792,阿富汗民主共和国,Democratic Republic of Afghanistan,1978,1980,63.0,34.0
+toolbay-region-0792-period-013,toolbay-region-0792,阿富汗民主共和国,Democratic Republic of Afghanistan,1980,1987,63.0,34.0
+toolbay-region-0792-period-014,toolbay-region-0792,阿富汗共和国,Republic of Afghanistan,1987,1992,63.0,34.0
+toolbay-region-0792-period-015,toolbay-region-0792,阿富汗伊斯兰国,Islamic State of Afghanistan,1992,1996,63.0,34.0
+toolbay-region-0792-period-016,toolbay-region-0792,阿富汗伊斯兰酋长国（塔利班）,Islamic State of Afghanistan(Taliban),1996,1997,63.0,34.0
+toolbay-region-0792-period-017,toolbay-region-0792,阿富汗伊斯兰酋长国（塔利班）,Islamic State of Afghanistan(Taliban),1997,2001,63.0,34.0
+toolbay-region-0792-period-018,toolbay-region-0792,阿富汗国,Transitional State of Afghanistan,2001,2004,63.0,34.0
+toolbay-region-0792-period-019,toolbay-region-0792,阿富汗伊斯兰国,Islamic State of Afghanistan,2004,9999,63.0,34.0
+toolbay-region-0793-period-003,toolbay-region-0793,Awadh,Awadh,1724,1801,81.0,26.0
+toolbay-region-0794-period-003,toolbay-region-0794,孟加拉,Bengal,1740,1765,87.0,25.0
+toolbay-region-0795-period-003,toolbay-region-0795,United Islamic Front for the Salvation of Afghanistan,United Islamic Front for the Salvation of Afghanistan,1996,2001,69.5,36.5
+toolbay-region-0796-period-003,toolbay-region-0796,阿富汗伊斯兰酋长国（塔利班）,Islamic State of Afghanistan(Taliban),2016,9999,65.0,30.0
+toolbay-region-0797-period-003,toolbay-region-0797,缅甸王国（贡榜王朝）,Kingdom of Burma(Konbaung dynasty),1752,1853,94.5,22.0
+toolbay-region-0797-period-004,toolbay-region-0797,缅甸王国（贡榜王朝）,Kingdom of Burma(Konbaung dynasty),1853,1876,94.5,22.0
+toolbay-region-0797-period-005,toolbay-region-0797,缅甸王国（贡榜王朝）,Kingdom of Burma(Konbaung dynasty),1876,1886,94.5,22.0
+toolbay-region-0800-period-003,toolbay-region-0800,英属印度,British India,1757,1804,86.0,22.0
+toolbay-region-0800-period-004,toolbay-region-0800,英属印度,British India,1804,1858,77.0,22.0
+toolbay-region-0800-period-005,toolbay-region-0800,英属印度帝国,British Raj Indian Empire,1858,1947,77.0,22.0
+toolbay-region-0800-period-006,toolbay-region-0800,印度联邦,Union India,1947,1950,77.0,22.0
+toolbay-region-0800-period-007,toolbay-region-0800,印度,India,1950,9999,77.0,22.0
+toolbay-region-0802-period-003,toolbay-region-0802,尼泊尔王国（沙阿王朝）,Kingdom of Nepal(Shah dynasty),1768,1816,82.0,29.0
+toolbay-region-0802-period-004,toolbay-region-0802,尼泊尔王国（英保护领）,Kingdom of Nepal(British protectorate),1816,1823,82.0,29.0
+toolbay-region-0802-period-005,toolbay-region-0802,尼泊尔王国（英保护领）,Kingdom of Nepal(British protectorate),1847,1823,82.0,29.0
+toolbay-region-0802-period-006,toolbay-region-0802,尼泊尔王国（沙阿王朝）,Kingdom of Nepal(Shah dynasty),1823,1923,82.0,29.0
+toolbay-region-0802-period-007,toolbay-region-0802,尼泊尔王国（沙阿王朝）,Kingdom of Nepal(Shah dynasty),1923,2007,82.0,29.0
+toolbay-region-0802-period-008,toolbay-region-0802,尼泊尔国,State of Nepal,2007,2008,82.0,29.0
+toolbay-region-0802-period-009,toolbay-region-0802,尼泊尔联邦民主共和国,Federal Democratic Republic of Nepal,2008,9999,82.0,29.0
+toolbay-region-0813-period-003,toolbay-region-0813,阮氏越南,Nguyen dynasty,1592,1707,108.0,14.5
+toolbay-region-0813-period-004,toolbay-region-0813,阮氏越南,Nguyen dynasty,1707,1777,108.0,14.5
+toolbay-region-0813-period-005,toolbay-region-0813,西山朝占城,Tay Son dynasty of Champa,1777,1802,107.0,16.4
+toolbay-region-0813-period-006,toolbay-region-0813,阮氏大南国,Nguyen dynasty of Dai Nam(Vietnam),1802,1878,107.0,16.4
+toolbay-region-0813-period-007,toolbay-region-0813,阮氏大南国,Nguyen dynasty of Dai Nam(Vietnam),1878,1887,107.0,16.4
+toolbay-region-0813-period-008,toolbay-region-0813,法属印度支那,French Indochina,1887,1944,106.0,16.4
+toolbay-region-0813-period-009,toolbay-region-0813,越南帝国,Empire of Vietnam,1944,1945,106.0,16.4
+toolbay-region-0814-period-003,toolbay-region-0814,越南民主共和国,Democratic Republic of Vietnam,1946,1976,106.0,18.0
+toolbay-region-0814-period-004,toolbay-region-0814,越南社会主义共和国,Socialist Republic of Vietnam,1976,9999,107.0,16.0
+toolbay-region-0815-period-003,toolbay-region-0815,越南国,State of Vietnam,1949,1955,109.0,13.2
+toolbay-region-0815-period-004,toolbay-region-0815,越南共和国,Republic of Vietnam,1955,1975,109.0,13.2
+toolbay-region-0815-period-005,toolbay-region-0815,南越南共和国,South Vietnam Republic,1975,1976,109.0,13.2
+toolbay-region-0816-period-003,toolbay-region-0816,锡克帝国,Sikh Empire,1761,1849,74.0,33.0
+toolbay-region-0877-period-003,toolbay-region-0877,英属香港,The Crown Colony of Hong Kong,1842,1941,114.3,22.9
+toolbay-region-0877-period-004,toolbay-region-0877,香港(日治时期),Hong Kong (Japan),1941,1945,114.3,22.9
+toolbay-region-0877-period-005,toolbay-region-0877,英属香港,The Crown Colony of Hong Kong,1845,1997,114.3,22.9
+toolbay-region-0877-period-006,toolbay-region-0877,香港特别行政区,Hong Kong Special Administrative Region,1997,9999,114.3,22.9
+toolbay-region-0878-period-003,toolbay-region-0878,澳门自由港(葡),Macau Free Port(Pt),1845,1887,113.0,21.8
+toolbay-region-0878-period-004,toolbay-region-0878,葡属澳门,Portuguese Macau,1887,1910,113.0,21.8
+toolbay-region-0878-period-005,toolbay-region-0878,葡属澳门,Portuguese Macau,1910,1976,113.0,21.8
+toolbay-region-0878-period-006,toolbay-region-0878,葡属澳门,Portuguese Macau,1976,1999,113.0,21.8
+toolbay-region-0878-period-007,toolbay-region-0878,澳门特别行政区,Macau Special Administrative Region,1999,9999,113.0,21.8
+toolbay-region-0892-period-003,toolbay-region-0892,英保护领的马尔代夫,British Protectorate of Maldives,1867,1933,73.0,6.0
+toolbay-region-0892-period-004,toolbay-region-0892,英保护领的马尔代夫,British Protectorate of Maldives,1933,1953,73.0,6.0
+toolbay-region-0892-period-005,toolbay-region-0892,马尔代夫共和国,Republic of Maldives,1953,1954,73.0,6.0
+toolbay-region-0892-period-006,toolbay-region-0892,英保护领的马尔代夫,British Protectorate of Maldives,1954,1965,73.0,6.0
+toolbay-region-0892-period-007,toolbay-region-0892,马尔代夫苏丹国,Sultanate of Maldives,1965,1968,73.0,6.0
+toolbay-region-0892-period-008,toolbay-region-0892,马尔代夫共和国,Republic of Maldives,1968,9999,73.0,6.0
+toolbay-region-0908-period-003,toolbay-region-0908,台湾省,Taiwan province(Qin),1885,1890,120.0,23.0
+toolbay-region-0908-period-004,toolbay-region-0908,台湾省,Taiwan province(Qin),1890,1895,120.0,23.0
+toolbay-region-0908-period-005,toolbay-region-0908,台湾民主国,Republic of Formosa,1895,1896,120.0,23.0
+toolbay-region-0908-period-006,toolbay-region-0908,台湾(日治时期),Taiwan(Japan),1896,1945,120.0,23.0
+toolbay-region-0912-period-003,toolbay-region-0912,德属加罗林群岛,German Caroline Islands,1899,1914,146.0,8.0
+toolbay-region-0912-period-004,toolbay-region-0912,南洋诸岛(日本),Pacific Islands(Japan),1914,1920,146.0,8.0
+toolbay-region-0912-period-005,toolbay-region-0912,南洋诸岛託管领土(日本),Trust Territory of the Pacific Islands(Japan),1920,1944,146.0,8.0
+toolbay-region-0912-period-006,toolbay-region-0912,密克罗尼西亚美军政府,US Military Government of Micronesia,1944,1947,146.0,8.0
+toolbay-region-0912-period-007,toolbay-region-0912,密克罗尼西亚託管领土(美),Trust Territory of Micronesia(US),1947,1965,146.0,8.0
+toolbay-region-0912-period-008,toolbay-region-0912,密克罗尼西亚託管领土(美),Trust Territory of Micronesia(US),1965,1978,146.0,8.0
+toolbay-region-0912-period-009,toolbay-region-0912,密克罗尼西亚託管领土(美),Trust Territory of Micronesia(US),1978,1986,146.0,8.0
+toolbay-region-0912-period-010,toolbay-region-0912,密克罗尼西亚联邦,Federated States of Micronesia,1986,9999,146.0,8.0
+toolbay-region-0938-period-003,toolbay-region-0938,共戴蒙古国,Bogd Khanate of Mongolia,1911,1920,105.0,49.0
+toolbay-region-0939-period-003,toolbay-region-0939,共戴蒙古国,Bogd Khanate of Mongolia,1921,1924,105.0,49.0
+toolbay-region-0939-period-004,toolbay-region-0939,蒙古人民共和国,People's Republic of Mongol,1924,1940,105.0,49.0
+toolbay-region-0939-period-005,toolbay-region-0939,蒙古人民共和国,People's Republic of Mongol,1940,1992,105.0,49.0
+toolbay-region-0939-period-006,toolbay-region-0939,蒙古国,Mongolia,1992,9999,105.0,49.0
+toolbay-region-0940-period-003,toolbay-region-0940,中华民国,Republic of China,1912,1915,114.0,34.5
+toolbay-region-0940-period-004,toolbay-region-0940,中华帝国,Empire of China,1915,1916,114.0,34.5
+toolbay-region-0940-period-005,toolbay-region-0940,中华民国,Republic of China,1916,1922,114.0,34.5
+toolbay-region-0940-period-006,toolbay-region-0940,中华民国,Republic of China,1922,1928,117.0,39.0
+toolbay-region-0944-period-003,toolbay-region-0944,帛琉託管领土(美),Trust Territory of Palau(US),1981,1994,130.0,5.0
+toolbay-region-0944-period-004,toolbay-region-0944,帛琉共和国,Republic of Palau,1994,9999,130.0,5.0
+toolbay-region-0960-period-003,toolbay-region-0960,胶州湾租借地(德意志),Jiaozhou Concession(Germany),1898,1914,120.9,36.5
+toolbay-region-0960-period-004,toolbay-region-0960,胶州湾租借地(日本),Jiaozhou Concession(Japan),1914,1922,120.9,36.5
+toolbay-region-0961-period-003,toolbay-region-0961,胶州湾租借地(俄罗斯),Liaodong Concession(Russia),1898,1905,121.9,39.5
+toolbay-region-0961-period-004,toolbay-region-0961,关东州(日本),Kwantung territory(Japan),1905,1945,121.9,39.5
+toolbay-region-0962-period-003,toolbay-region-0962,英属威海卫,British Weihai(Port Edward),1898,1900,122.1,37.4
+toolbay-region-0962-period-004,toolbay-region-0962,英属威海卫,British Weihai(Port Edward),1900,1930,122.1,37.4
+toolbay-region-0963-period-003,toolbay-region-0963,广州湾租借地(法国),Kwangchowan Leased Territory(France),1899,1944,110.2,20.5
+toolbay-region-0967-period-003,toolbay-region-0967,中华民国维新政府,Reformed Goverment,1938,1940,119.0,32.0
+toolbay-region-0967-period-004,toolbay-region-0967,南京国民政府,National Goverment of Nanjing,1940,1945,119.0,34.0
+toolbay-region-0968-period-003,toolbay-region-0968,蒙古联合自治政府,Mongol United Autonomous Government,1939,1941,113.0,42.0
+toolbay-region-0968-period-004,toolbay-region-0968,蒙古自治邦政府,Mongolian Autonomous Federation,1941,1945,113.0,42.0
+toolbay-region-0980-period-003,toolbay-region-0980,(马化龙),(Ma Hua-long),1862,1869,94.0,40.0
+toolbay-region-0981-period-003,toolbay-region-0981,阿古柏之乱,Yaqub Bek,1864,1877,78.0,44.0
+toolbay-region-0982-period-003,toolbay-region-0982,东突厥斯坦伊斯兰共和国,Islamic Republic of Eastern Turkestan,1933,1934,77.0,41.0
+toolbay-region-0983-period-003,toolbay-region-0983,东突厥斯坦共和国,East Turkestan Republic,1944,1949,85.0,49.0
+toolbay-region-0984-period-003,toolbay-region-0984,阿拉什自治共和国,Alash Autonomy,1917,1920,62.0,48.0
+toolbay-region-0984-period-004,toolbay-region-0984,吉尔吉斯自治苏维埃共和国,Kirghiz Autonomous Soviet Socialist Republic,1920,1922,62.0,48.0
+toolbay-region-1000-period-003,toolbay-region-1000,图瓦人民共和国,Tuvan People's Republic,1921,1926,94.0,52.0
+toolbay-region-1000-period-004,toolbay-region-1000,图瓦人民共和国,Tuvan People's Republic,1926,1930,94.0,52.0
+toolbay-region-1000-period-005,toolbay-region-1000,图瓦人民共和国,Tuvan People's Republic,1930,1944,94.0,52.0
+toolbay-region-1001-period-003,toolbay-region-1001,英属缅甸,British Burma,1937,1939,94.7,22.0
+toolbay-region-1001-period-004,toolbay-region-1001,英属缅甸,British Burma,1939,1941,94.7,22.0
+toolbay-region-1001-period-005,toolbay-region-1001,英属缅甸,British Burma,1941,1942,94.7,22.0
+toolbay-region-1001-period-006,toolbay-region-1001,日属缅甸,Burma(Japan),1942,1943,94.7,22.0
+toolbay-region-1001-period-007,toolbay-region-1001,缅甸国,State of Burma,1943,1945,94.7,22.0
+toolbay-region-1001-period-008,toolbay-region-1001,英属缅甸,British Burma,1945,1948,94.7,22.0
+toolbay-region-1001-period-009,toolbay-region-1001,缅甸联邦,Union of Burma,1948,1974,94.7,22.0
+toolbay-region-1001-period-010,toolbay-region-1001,缅甸联邦社会主义共和国,Socialist Republic of the Union of Burma,1974,1988,94.7,22.0
+toolbay-region-1001-period-011,toolbay-region-1001,缅甸联邦,Union of Burma,1988,1989,94.7,22.0
+toolbay-region-1001-period-012,toolbay-region-1001,缅甸联邦,Union of Myanmar,1989,2010,94.7,22.0
+toolbay-region-1001-period-013,toolbay-region-1001,缅甸联邦,Union of Myanmar,2010,9999,94.7,22.0
+toolbay-region-1002-period-003,toolbay-region-1002,琉球列岛美国军政府,US Military Government of the Ryukyu Islands,1945,1950,129.0,28.0
+toolbay-region-1002-period-004,toolbay-region-1002,琉球列岛美国民政府,US Administration of the Ryukyu Islands,1950,1972,129.0,28.0
+toolbay-region-1003-period-003,toolbay-region-1003,北朝鲜（苏联军政期）,North Korea(USSR Military Governance),1945,1948,126.0,41.0
+toolbay-region-1003-period-004,toolbay-region-1003,朝鲜民主主义人民共和国,Democratic People's Republic of Korea,1948,9999,126.0,41.0
+toolbay-region-1004-period-003,toolbay-region-1004,巴基斯坦,Dominion of Pakistan,1947,1956,72.0,30.5
+toolbay-region-1004-period-004,toolbay-region-1004,巴基斯坦伊斯兰共和国,Islamic Republic of Pakistan,1956,1962,72.0,30.5
+toolbay-region-1004-period-005,toolbay-region-1004,巴基斯坦共和国,Republic of Pakistan,1962,1973,72.0,30.5
+toolbay-region-1004-period-006,toolbay-region-1004,巴基斯坦伊斯兰共和国,Islamic Republic of Pakistan,1973,9999,72.0,30.5
+toolbay-region-1005-period-003,toolbay-region-1005,东巴基斯坦,East Pakistan,1947,1971,89.0,23.7
+toolbay-region-1005-period-004,toolbay-region-1005,孟加拉人民共和国,People's Republic of Bangladesh,1971,1972,89.0,23.7
+toolbay-region-1005-period-005,toolbay-region-1005,孟加拉人民共和国,People's Republic of Bangladesh,1972,9999,89.0,23.7
+toolbay-region-1006-period-003,toolbay-region-1006,广州革命政府,Revolutional Goverment of Guangzhou,1917,1921,110.5,24.0
+toolbay-region-1006-period-004,toolbay-region-1006,广州革命政府,Revolutional Goverment of Guangzhou,1921,1925,110.5,24.0
+toolbay-region-1006-period-005,toolbay-region-1006,广州国民政府,Nationalist Goverment of Guangzhou,1925,1926,110.5,24.0
+toolbay-region-1006-period-006,toolbay-region-1006,广州国民政府,Nationalist Goverment of Guangzhou,1926,1927,110.0,33.5
+toolbay-region-1006-period-007,toolbay-region-1006,南京国民政府,Nationalist Goverment of Nanjing,1927,1938,110.0,33.5
+toolbay-region-1006-period-008,toolbay-region-1006,重庆国民政府,Nationalist Goverment of Chongqing,1938,1945,110.0,33.5
+toolbay-region-1006-period-009,toolbay-region-1006,南京国民政府,Nationalist Goverment of Nanjing,1945,1948,105.0,30.0
+toolbay-region-1006-period-010,toolbay-region-1006,中华民国,Republic of China,1948,1949,105.0,30.0
+toolbay-region-1006-period-011,toolbay-region-1006, , ,1949,9999,120.0,23.0
+toolbay-region-1007-period-003,toolbay-region-1007,奉天军阀,Fengtian clique,1922,1928,124.0,47.0
+toolbay-region-1007-period-004,toolbay-region-1007,(奉天军阀),(Fengtian clique),1928,1931,124.0,47.0
+toolbay-region-1007-period-005,toolbay-region-1007,(关东军),(Kwantung Army),1931,1932,124.0,47.0
+toolbay-region-1007-period-006,toolbay-region-1007,満洲国,Manchukuo,1932,1934,124.0,47.0
+toolbay-region-1007-period-007,toolbay-region-1007,満洲国,Manchukuo,1934,1945,124.0,47.0
+toolbay-region-1008-period-003,toolbay-region-1008,直隷军阀,Zhili clique,1922,1926,114.0,32.0
+toolbay-region-1008-period-004,toolbay-region-1008,直隷军阀,Zhili clique,1926,1927,119.0,32.0
+toolbay-region-1009-period-003,toolbay-region-1009,(冯玉祥),(Feng Yu-xiang),1922,1926,103.0,40.0
+toolbay-region-1010-period-003,toolbay-region-1010,(阎锡山),(Yan Xi-shan),1922,1927,111.0,38.2
+toolbay-region-1011-period-003,toolbay-region-1011,(唐继尭),(Tang Ji-yao),1922,1927,101.0,27.0
+toolbay-region-1012-period-003,toolbay-region-1012,新桂系,New Guangxi clique,1924,1926,107.0,25.0
+toolbay-region-1013-period-003,toolbay-region-1013,新疆省,Xingjiang province,1933,1949,85.0,43.0
+toolbay-region-1014-period-003,toolbay-region-1014,中华苏维埃共和国,Chinese Soviet Republic,1931,1934,116.0,27.5
+toolbay-region-1015-period-003,toolbay-region-1015,中华苏维埃共和国,Chinese Soviet Republic,1935,1937,112.0,36.0
+toolbay-region-1016-period-003,toolbay-region-1016,中国共产党,Communist Party,1945,1949,115.0,36.0
+toolbay-region-1016-period-004,toolbay-region-1016,中华人民共和国,People's Republic of China,1949,9999,110.0,34.5
+toolbay-region-1026-period-003,toolbay-region-1026,法保护领老檛,French Protecturate of Laos,1893,1944,102.0,20.0
+toolbay-region-1026-period-004,toolbay-region-1026,老檛王国,Kingdom of Laos,1944,1945,102.0,20.0
+toolbay-region-1026-period-005,toolbay-region-1026,老檛(中华民国佔领的),Laos(Chinese occupation),1945,1946,102.0,20.0
+toolbay-region-1026-period-006,toolbay-region-1026,法保护领老檛,French Protecturate of Laos,1946,1949,102.0,20.0
+toolbay-region-1026-period-007,toolbay-region-1026,法保护领老檛,French Protecturate of Laos,1949,1953,102.0,20.0
+toolbay-region-1026-period-008,toolbay-region-1026,老檛王国,Kingdom of Laos,1953,1975,102.0,20.0
+toolbay-region-1026-period-009,toolbay-region-1026,老檛人民共和国,Lao People's Democratic Republic,1975,9999,102.0,20.0
+toolbay-region-1042-period-003,toolbay-region-1042,新加坡共和国,Republic of Singapore,1965,9999,104.0,1.0
+toolbay-region-1052-period-003,toolbay-region-1052,乌兹别克斯坦共和国,Republic of Uzbekistan,1991,9999,62.0,43.0
+toolbay-region-1054-period-003,toolbay-region-1054,吉尔吉斯共和国,Republic of Kyrgyz,1991,1992,74.0,42.7
+toolbay-region-1054-period-004,toolbay-region-1054,吉尔吉斯共和国,Republic of Kyrgyz,1992,9999,74.0,42.7
+toolbay-region-1055-period-003,toolbay-region-1055,塔吉克共和国,Republic of Tajikistan,1991,1992,72.0,39.0
+toolbay-region-1055-period-004,toolbay-region-1055,塔吉克共和国,Republic of Tajikistan,1992,9999,72.0,39.0

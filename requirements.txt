@@ -1,0 +1,6 @@
+json5>=0.15,<1
+jsonschema>=4.23,<5
+numpy>=1.24,<3
+Pillow>=10,<13
+rasterio>=1.4,<2
+shapely>=2.1,<3
